@@ -1,2 +1,3 @@
 # TIL
-Today I Learned
+
+하루 하나는 꼭 무었이든 배우자.
