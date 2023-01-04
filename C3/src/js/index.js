@@ -5,6 +5,7 @@ const pieData = {
   치즈: 54,
   딸기: 120,
 };
+
 const chartDonut = c3.generate({
   bindto: "#piechart",
   data: {
