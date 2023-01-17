@@ -22,6 +22,25 @@
 
 - 각각의 컴포넌트는 shouldComponentUpdate 라는 메소드를 가지고 있는데 이는 state가 병경되거나 새로운 props를 전달받는경우 실행이 된다 이때 기본적으로 return 값은 true 가 되어 rendering 이 시작되지만 rerendering 이 필요하지 않은 부분이라면 개발자가 return value 를 false 값으로 지정함으로써 리렌더링 되는 상황을 막아줄수 있게된다.
 
+- setState는 shouldComponentUpdate(nextProps, nextState)를 트리거하는데 이 메소드의 boolean 반환값에 따라 render 호출 여부가 결정됩니다. 이 메소드를 재정의하지 않으면 setState 호출 시마다 render가 호출됩니다.
+  본문의 '최적화'는 여러분이 shouldComponentUpdate 재정의를 통해 render 호출 여부를 결정하는 것을 말합니다. 해당 예시는 다음과 같습니다.
+
+```js
+shouldComponentUpdate(nextProps: Props, nextState: State) {
+  for (const [key, value] of Object.entries(nextState)) {
+    if (typeof value != "object") {
+    if (this.state.isLoading != nextState.isLoading) {
+    return true;
+  }
+  }
+  else {
+    // codes for deep comparison here depending on your case
+  }
+  }
+  return false;
+}
+```
+
 ### forceUpdate가 실행될 때
 
 - props 나 state 가 아닌 다른 값이 변경되었을 때 리렌더링을 하고 싶다면 그때 사용할수 있는 메서드 이다.
