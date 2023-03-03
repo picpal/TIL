@@ -91,6 +91,88 @@ class DoublyLinkedList {
     this.length--;
     return oldHead;
   }
+
+  /*
+    1. create a new node with the vlaue passed to the function
+    2. If the length is 0 
+      - Set the head to be the new node
+      - Set the tail to be the new node
+    3. Otherwise
+      - Set the prev property on the head of the list to be the new node
+      - Set the next property on the new node to be the head property
+      - Update the head to be the new node
+    4. Increment the length 
+    5. return the list 
+  */
+  unshift(val) {
+    let newNode = new Node(val);
+    if (this.length === 0) {
+      this.head = newNode;
+      this.tail = newNode;
+    } else {
+      this.head.prev = newNode;
+      newNode.next = this.head;
+      this.head = newNode;
+    }
+    this.length++;
+    return this;
+  }
+
+  /**
+   * 1. If the index is less than 0 or greater or equal to the length, return null
+   * 2. If the index is less than or equal to half the length of the list
+   *  - Loop through the list starting from the head and loop
+   *  - Return the node once it is found
+   * 3. If the index is greater than half the length of the list
+   *  - Loop through the list starting from the tail and loop towards the middle
+   *  - Return the node once it is found
+   */
+  get(index) {
+    if (index < 0 || index >= this.length) {
+      return null;
+    }
+
+    var count, current;
+    if (index <= this.length / 2) {
+      count = 0;
+      current = this.head;
+      while (count != index) {
+        current = current.next;
+        count++;
+      }
+    } else {
+      count = this.lenght - 1;
+      current = this.tail;
+      while (count != index) {
+        current = current.prev;
+        count--;
+      }
+    }
+    return current;
+  }
+
+  /**
+   * 1. create a variable which is the result of the get method
+   *    at the index passed to the function
+   *  - if the get method returns a valid node, set the value of that
+   *    node to be the value passed to the function
+   *  - Return true
+   * 2. otherwise return false
+   */
+  set(index, val) {
+    var foundNode = this.get(index);
+    if (foundNode != null) {
+      foundNode.val = val;
+      return true;
+    }
+
+    return false;
+  }
+
+  /**
+   *
+   */
+  insert() {}
 }
 
 let list = new DoublyLinkedList();
@@ -109,4 +191,8 @@ list.push("Hermione");
 
 const shift = list.shift();
 console.log(shift);
+console.log(list);
+
+const unshift = list.unshift("kim");
+console.log(unshift);
 console.log(list);
