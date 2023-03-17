@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6acbf694549fc14b",
+        "id": "ac4c27c4a7b4c3ac",
         "type": "tabs",
         "children": [
           {
-            "id": "61a224fcfa658a0d",
+            "id": "8c6c9de7908ff99c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSS/is , where.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSS/is , where.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSS/is , where.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CSS/is , where.md"
+              }
             }
           }
         ]
@@ -140,6 +148,8 @@
   },
   "active": "25283b6ce11f6719",
   "lastOpenFiles": [
-    "무제 파일.canvas"
+    "C3/README.md",
+    "무제 파일.canvas",
+    "README.md"
   ]
 }
