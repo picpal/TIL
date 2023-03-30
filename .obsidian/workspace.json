@@ -184,10 +184,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6e66339fab286184",
+  "active": "25283b6ce11f6719",
   "lastOpenFiles": [
-    "Algorithm/DepthFirstSearch.md",
+    "AI,Prompt/AI, Prompt.md",
     "Javascript/reduce , reduceRight.md",
+    "AI,Prompt",
+    "Algorithm/DepthFirstSearch.md",
     "Algorithm/Graph search.md",
     "Javascript/Xpath Selector.md",
     "Javascript/callstack.md",
