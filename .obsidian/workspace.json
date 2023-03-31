@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d076f55c83974493",
@@ -186,6 +185,7 @@
   },
   "active": "25283b6ce11f6719",
   "lastOpenFiles": [
+    "Print _Hello, World!_.md",
     "AI,Prompt/AI, Prompt.md",
     "Javascript/reduce , reduceRight.md",
     "AI,Prompt",
