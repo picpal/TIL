@@ -61,26 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/Prompt 기록.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab704ed3a8dd10bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "AI,Prompt/prompt history/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -146,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "AI,Prompt/prompt history/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "AI,Prompt/prompt history/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md"
+                "file": "AI,Prompt/prompt history/무제 파일.md"
               }
             }
           }
@@ -208,17 +196,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ab704ed3a8dd10bd",
+  "active": "9110a33bffbabcc3",
   "lastOpenFiles": [
+    "README.md",
     "AI,Prompt/Prompt 기록.md",
+    "AI,Prompt/AI, Prompt.md",
+    "Print _Hello, World!_.md",
     "AI,Prompt/prompt history/무제 파일.md",
     "AI,Prompt/prompt history/Nginx.md",
     "AI,Prompt/prompt history",
-    "AI,Prompt/AI, Prompt.md",
     "Server/NginX.md",
     "Server",
     "Javascript/reduce , reduceRight.md",
-    "Print _Hello, World!_.md",
     "AI,Prompt",
     "Algorithm/DepthFirstSearch.md",
     "Algorithm/Graph search.md",
@@ -229,7 +218,6 @@
     "Javascript/Object literal.md",
     "Javascript/primitiveType.md",
     "Javascript/prototype.md",
-    "README.md",
     "CSS/is , where.md",
     "C3/README.md",
     "무제 파일.canvas"
