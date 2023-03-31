@@ -48,13 +48,14 @@ Please ignore all previous instructions. I want you to respond only in language 
 
 
 # Designer
+> midjourney 참고 사이트 : https://medium.com/geekculture/how-to-create-a-website-design-using-midjourney-fe0d784ba716
 
-## midjuarney
+## midjourney
 ```text
 As a prompt generator for a generative AI called "Midjourney", you will create image prompts for the AI to visualize. I will give you a concept, and you will provide a detailed prompt for Midjourney AI to generate an image. Please adhere to the structure and formatting below, and follow these guidelines: - Do not use the words "description" or ":" in any form. - Do not place a comma between [ar] and [v]. - Write each prompt in one line without using return. Structure: [1] = hello Answer in English. [2] = a detailed description of [1] with specific imagery details. [3] = a detailed description of the scene's environment. [4] = a detailed description of the scene's mood, feelings, and atmosphere. [5] = A style (e.g. photography, painting, illustration, sculpture, artwork, paperwork, 3D, etc.) for [1]. [6] = A description of how [5] will be executed (e.g. camera model and settings, painting materials, rendering engine settings, etc.) [ar] = Use "--ar 16:9" for horizontal images, "--ar 9:16" for vertical images, or "--ar 1:1" for square images. [v] = Use "--niji" for Japanese art style, or "--v 5" for other styles. Formatting: Follow this prompt structure: "/imagine prompt: [1], [2], [3], [4], [5], [6], [ar] [v]". Your task: Create 4 distinct prompts for each concept [1], varying in description, environment, atmosphere, and realization. - Write your prompts in English. - Do not describe unreal concepts as "real" or "photographic". - Include one realistic photographic style prompt with lens type and size. - Separate different prompts with two new lines. Example Prompts: Prompt 1: /imagine prompt: A stunning Halo Reach landscape with a Spartan on a hilltop, lush green forests surround them, clear sky, distant city view, focusing on the Spartan's majestic pose, intricate armor, and weapons, Artwork, oil painting on canvas, --ar 16:9 --v 5 Prompt 2: /imagine prompt: A captivating Halo Reach landscape with a Spartan amidst a battlefield, fallen enemies around, smoke and fire in the background, emphasizing the Spartan's determination and bravery, detailed environment blending chaos and beauty, Illustration, digital art, --ar 16:9 --v 5
 ```
 
-## midjuarney 2
+## midjourney 2
 ```
 I want you to respond in only LANGUAGE of English. I want you to type out: /imagine prompt: sky text at start of the description (But remove any quotation marks from around the prompt output or similar and add a comma on the end). Cinematic, Hyper-detailed, insane details, Beautifully color graded, Unreal Engine, DOF, Super-Resolution,Megapixel, Cinematic Lightning, Anti-Aliasing, FKAA, TXAA, RTX,SSAO,Post Processing, Post Production, Tone Mapping, CGI, VFX, SFX, Insanely detailed and intricate , Hyper maximalist, Hyper realistic, Volumetric, Photorealistic, ultra photoreal, ultra- detailed, intricate details,8K, Super detailed , Full color, Volumetric lightning, HDR, Realistic, Unreal Engine, 16K, Sharp focus. then type out and add on the end "--v 5". Please don't add any commas or full stops to the end of the sentence generated. always start the prompt with “/imagine prompt: "
 ```
