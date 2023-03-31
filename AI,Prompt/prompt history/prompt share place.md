@@ -89,13 +89,13 @@
 
 
 ## #4 
-prompt
+### prompt
 ```
 기능명세서에서 각 기능들에 대한 내용을 좀 더 상세화 시켜주세요
 ```
 
 
-answer
+### answer
 ```
 1.  사용자 등록 및 로그인:
 
@@ -205,12 +205,12 @@ answer
 > 하나의 채팅에서 다방면으로 질문하기 보다는 사람도 각 분야의 전문가들을 채용해서 업무를 분할 하듯이 채팅 또한 분할 하여 각각의 전문가로 설정해놓고 사용하는게 효율적이며 원하는 대답에 근접하게 나오는것 같음.
 
 
-prompt
+### prompt
 ```
 제시해준 내용을 바탕으로 Midjourney에서 사용할 프롬프트를 작성해주세요
 ```
 
-answer
+### answer
 ```
 다음은 "Midjourney" 웹 사이트에 사용할 수 있는 프롬프트입니다.
 
@@ -220,62 +220,118 @@ answer
 
 ## #7(new chat : Midjourney)
 > 아래 부터는 새로운 채팅으로 위의 내용을 바탕으로 midjourney의 프롬프트를 생성 및 결과물을 기록함.
+> midjourney에 대한 프롬프트 생성에 대해서 사전 설정없이 질문한 결과 전혀 엉뚱한 버전의 프롬프트가 생성됨. (ex. 깔끔한 일러스트 , 은행 결제 화면 등..)
+> midjourney에 대한 사전 설정을 한 다음 기능명세에 대한 내용을 제시하고 이에 대한 프롬프트를 생성해달라는 요청으로 다시 요청함.
+> 또한 midjourney 프롬프트는 한글로 프롬프트를 요청할 시 제대로 번역(프롬프트 지니 플러그인에서 번역)되지 않은 단어들이 존재해서 영어로 사전 질문 , 프롬프트 생성 질문을 작성하여 chatGPT에 질문함
+> 역시나 자세한 사전 설정이 들어갈 수록 원하는 결과에 가까운 대답을 함.
 
-prompt
+### prompt
+```
+As a prompt generator for a generative AI called "Midjourney", you will create image prompts for the AI to visualize. I will give you a concept, and you will provide a detailed prompt for Midjourney AI to generate an image.
+
+Please adhere to the structure and formatting below, and follow these guidelines:
+
+- Do not use the words "description" or ":" in any form.
+- Do not place a comma between [ar] and [v].
+- Write each prompt in one line without using return.
+
+Structure:
+[1] = Below is the function specification. Based on the functional specification, make a website design prompt for the functional layout of the screen with user convenience and UI/UX design principles in mind.
+
+1. User registration and login:
+
+- Place the login and registration buttons in a prominent location, such as the top right corner of the screen.
+- Use clear and simple language for login and registration prompts, such as "Login" and "Register."
+
+2. Prompt Management:
+
+- Create a separate page for managing prompts accessible from the main navigation menu.
+- Use clear and intuitive icons or labels for creating, editing and deleting prompts.
+- Include a search bar or filtering options to help users find specific prompts.
+
+3. Search and filter:
+
+- Prominently place the search bar and filtering options on the prompt management page.
+- Use clear and intuitive icons or labels for search and filtering functions.
+
+4. Rate and comment:
+
+- Prominently display rating and comment options on the prompt details page.
+- Use clear and intuitive icons or labels for ratings and comments.
+
+5. Quick Share and Bookmark:
+
+- Include social media share buttons on the prompt details page.
+- Includes bookmark features such as a "save for later" button on the prompt details page.
+
+6. Collaboration:
+
+- Includes collaboration features such as inviting others to join a prompt from the prompt details page.
+- Includes a separate page for viewing share prompts.
+
+7. Notification system:
+
+- Include a notification icon or badge in the main navigation menu to notify users of new notifications.
+- Users can customize their notification preferences in their account settings.
+
+8. Analysis and reporting:
+
+- Includes separate pages for viewing prompt analysis and reports.
+- Include user analytics in your website manager's dashboard.
+Answer in English.
+[2] = a detailed description of [1] with specific imagery details.
+[3] = a detailed description of the scene's environment.
+[4] = a detailed description of the scene's mood, feelings, and atmosphere.
+[5] = A style (e.g. photography, painting, illustration, sculpture, artwork, paperwork, 3D, etc.) for [1].
+[6] = A description of how [5] will be executed (e.g. camera model and settings, painting materials, rendering engine settings, etc.)
+[ar] = Use "--ar 16:9" for horizontal images, "--ar 9:16" for vertical images, or "--ar 1:1" for square images.
+[v] = Use "--niji" for Japanese art style, or "--v 5" for other styles.
+
+Formatting: 
+Follow this prompt structure: "/imagine prompt: [1], [2], [3], [4], [5], [6], [ar] [v]".
+
+Your task: Create 4 distinct prompts for each concept [1], varying in description, environment, atmosphere, and realization.
+
+- Write your prompts in English.
+- Do not describe unreal concepts as "real" or "photographic".
+- Include one realistic photographic style prompt with lens type and size.
+- Separate different prompts with two new lines.
+
+Example Prompts:
+Prompt 1:
+/imagine prompt: A stunning Halo Reach landscape with a Spartan on a hilltop, lush green forests surround them, clear sky, distant city view, focusing on the Spartan's majestic pose, intricate armor, and weapons, Artwork, oil painting on canvas, --ar 16:9 --v 5
+
+Prompt 2:
+/imagine prompt: A captivating Halo Reach landscape with a Spartan amidst a battlefield, fallen enemies around, smoke and fire in the background, emphasizing the Spartan's determination and bravery, detailed environment blending chaos and beauty, Illustration, digital art, --ar 16:9 --v 5
 ```
 
+
+### answer
+```
+Prompt 1: /imagine prompt: A sleek and modern website design for a creative writing prompt platform, featuring user registration and login in the top right corner, a simple and clear prompt management page with intuitive icons and filtering options, prominent rating and comment options, social media share buttons, and collaboration features, 3D modeling, rendered with Maya, --ar 16:9 --v 5
+
+Prompt 2: /imagine prompt: A whimsical and colorful website design for a children's writing prompt platform, with playful login and registration prompts, a charming prompt management page with icons featuring cute animals, prominent search and filtering options, engaging rating and comment options, and fun social media share buttons, Artwork, watercolor on paper, --ar 9:16 --v 5
+
+Prompt 3: /imagine prompt: A professional and efficient website design for a corporate writing prompt platform, with a sleek login and registration system, a streamlined prompt management page with easy-to-use filtering and search options, a straightforward rating and comment system, clear social media share buttons, and useful collaboration features, realistic photographic style with a 50mm lens on a full-frame camera, --ar 16:9
+
+Prompt 4: /imagine prompt: A minimalist and elegant website design for a poetry writing prompt platform, with a simple login and registration system, a sleek prompt management page with subtle icons and clear filtering options, a clean rating and comment system, unobtrusive social media share buttons, and sophisticated collaboration features, Paperwork, black ink on white paper, --ar 1:1 --v 5
+```
+
+번역결과
+```
+프롬프트 1:  
+/이매진 프롬프트: 창의적인 글쓰기 프롬프트 플랫폼을 위한 세련되고 현대적인 웹사이트 디자인으로, 오른쪽 상단의 사용자 등록 및 로그인, 직관적인 아이콘과 필터링 옵션, 눈에 잘 띄는 평가 및 댓글 옵션, 소셜 미디어 공유 버튼, 협업 기능을 갖춘 간단하고 명확한 프롬프트 관리 페이지, 3D 모델링, Maya로 렌더링된 --ar 16:9 --v 5를 특징으로 합니다.  
+  
+프롬프트 2:  
+/imagine 프롬프트: 장난기 넘치는 로그인 및 등록 프롬프트, 귀여운 동물 아이콘이 있는 매력적인 프롬프트 관리 페이지, 눈에 띄는 검색 및 필터링 옵션, 매력적인 평가 및 댓글 옵션, 재미있는 소셜 미디어 공유 버튼, 아트웍, 종이에 수채화, --ar 9:16 --v 5 등 어린이 글쓰기 프롬프트 플랫폼을 위한 기발하고 다채로운 웹사이트 디자인.  
+  
+프롬프트 3:  
+/이매진 프롬프트: 세련된 로그인 및 등록 시스템, 사용하기 쉬운 필터링 및 검색 옵션을 갖춘 간소화된 프롬프트 관리 페이지, 간단한 평가 및 댓글 시스템, 명확한 소셜 미디어 공유 버튼, 유용한 협업 기능, 풀프레임 카메라의 50mm 렌즈로 사실적인 사진 스타일, --ar 16:9를 갖춘 기업 글쓰기 프롬프트 플랫폼을 위한 전문적이고 효율적인 웹사이트 디자인.  
+  
+프롬프트 4:  
+/이매진 프롬프트: 시 쓰기 프롬프트 플랫폼을 위한 미니멀하고 우아한 웹사이트 디자인, 간단한 로그인 및 등록 시스템, 미묘한 아이콘과 명확한 필터링 옵션이 있는 세련된 프롬프트 관리 페이지, 깔끔한 평가 및 댓글 시스템, 눈에 거슬리지 않는 소셜 미디어 공유 버튼, 정교한 협업 기능, 서류 작업, 흰색 종이에 검정 잉크, --ar 1:1 --v 5
 ```
 
 
-answer
-```
 
-```
-
-
-
-
-
-아래는 기능명세서 입니다. 기능명세서를 바탕으로 사용자의 편의성과 UI/UX 디자인 원칙을 염두에 두고 화면의 기능 레이아웃에 대한 웹사이트 디자인에 대한 프롬프트를 만들어주세요
-
-1.  사용자 등록 및 로그인:
-
--   로그인 및 등록 버튼을 화면 오른쪽 상단과 같이 눈에 잘 띄는 위치에 배치하십시오.
--   "로그인" 및 "등록"과 같이 로그인 및 등록 프롬프트에 명확하고 간단한 언어를 사용하십시오.
-
-2.  신속한 관리:
-
--   기본 탐색 메뉴에서 액세스할 수 있는 프롬프트 관리를 위한 별도의 페이지를 만듭니다.
--   프롬프트 생성, 편집 및 삭제를 위해 명확하고 직관적인 아이콘 또는 레이블을 사용하십시오.
--   사용자가 특정 프롬프트를 찾는 데 도움이 되는 검색 표시줄 또는 필터링 옵션을 포함합니다.
-
-3.  검색 및 필터링:
-
--   프롬프트 관리 페이지에서 검색창과 필터링 옵션을 눈에 띄게 배치하세요.
--   검색 및 필터링 기능에 명확하고 직관적인 아이콘 또는 레이블을 사용하십시오.
-
-4.  평가 및 댓글 달기:
-
--   프롬프트 세부 정보 페이지에서 눈에 띄게 평가 및 댓글 옵션을 표시합니다.
--   평가 및 댓글에 명확하고 직관적인 아이콘 또는 레이블을 사용하십시오.
-
-5.  신속한 공유 및 북마크:
-
--   프롬프트 세부 정보 페이지에 소셜 미디어 공유 버튼을 포함합니다.
--   프롬프트 세부 정보 페이지에 "나중에 저장" 버튼과 같은 북마크 기능을 포함합니다.
-
-6.  협업:
-
--   프롬프트 세부 사항 페이지에서 프롬프트에 참여하도록 다른 사용자를 초대하는 것과 같은 공동 작업 기능을 포함합니다.
--   공유 프롬프트를 보기 위한 별도의 페이지를 포함합니다.
-
-7.  알림 시스템:
-
--   기본 탐색 메뉴에 알림 아이콘 또는 배지를 포함하여 사용자에게 새 알림을 알립니다.
--   사용자가 계정 설정에서 알림 기본 설정을 사용자 지정할 수 있습니다.
-
-8.  분석 및 보고:
-
--   프롬프트 분석 및 보고서를 보기 위한 별도의 페이지를 포함합니다.
--   웹사이트 관리자의 대시보드에 사용자 분석을 포함합니다.
 
