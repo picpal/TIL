@@ -145,12 +145,12 @@
 > chatGPT에서는 디자인적인 부분에 대한 표현은 텍스트로 표현하다 보니 의미 있는 답변을 구하기 힘든것 같음.  dall-E , stable diffusion, Midjourney 등과 같은 생성AI를 사용해봐야 함.
 > 그렇다면 직접 생성하진 못하지만 생성을 위한 프롬프트를 제작해달라고 해보면 좋을것 같아서 프롬프트를 생성해달라는 방향으로 변경
 
-prompt
+### prompt
 ```
 화면상에 해당 기능들의 레이아웃을 정의하고 싶습니다. UI/UX를 고려하여 심플하지만 세련된 레이 아웃을 원합니다. 레이아웃은 사용자의 편의성을 최우선으로 고려해주세요
 ```
 
-answer
+### answer
 ```
 물론, 사용자의 편의성과 UI/UX 디자인 원칙을 염두에 두고 화면의 기능 레이아웃에 대한 몇 가지 제안을 제공할 수 있습니다.
 
@@ -333,5 +333,34 @@ Prompt 4: /imagine prompt: A minimalist and elegant website design for a poetry 
 ```
 
 
+## #8 (discode : midjourney)
+> ChatGPT에서 생성한 프롬프트를 바탕으로 midjourney에서 이미지 생성
+> midjourney에서 프롬프트는 무조건 영어로 작성해야함.
 
+
+### prompt
+```
+Prompt 1: /imagine prompt: A sleek and modern website design for a creative writing prompt platform, featuring user registration and login in the top right corner, a simple and clear prompt management page with intuitive icons and filtering options, prominent rating and comment options, social media share buttons, and collaboration features, 3D modeling, rendered with Maya, --ar 16:9 --v 5
+
+Prompt 2: /imagine prompt: A whimsical and colorful website design for a children's writing prompt platform, with playful login and registration prompts, a charming prompt management page with icons featuring cute animals, prominent search and filtering options, engaging rating and comment options, and fun social media share buttons, Artwork, watercolor on paper, --ar 9:16 --v 5
+
+Prompt 3: /imagine prompt: A professional and efficient website design for a corporate writing prompt platform, with a sleek login and registration system, a streamlined prompt management page with easy-to-use filtering and search options, a straightforward rating and comment system, clear social media share buttons, and useful collaboration features, realistic photographic style with a 50mm lens on a full-frame camera, --ar 16:9
+
+Prompt 4: /imagine prompt: A minimalist and elegant website design for a poetry writing prompt platform, with a simple login and registration system, a sleek prompt management page with subtle icons and clear filtering options, a clean rating and comment system, unobtrusive social media share buttons, and sophisticated collaboration features, Paperwork, black ink on white paper, --ar 1:1 --v 5
+
+프롬프트 1:  
+/이매진 프롬프트: 창의적인 글쓰기 프롬프트 플랫폼을 위한 세련되고 현대적인 웹사이트 디자인으로, 오른쪽 상단의 사용자 등록 및 로그인, 직관적인 아이콘과 필터링 옵션, 눈에 잘 띄는 평가 및 댓글 옵션, 소셜 미디어 공유 버튼, 협업 기능을 갖춘 간단하고 명확한 프롬프트 관리 페이지, 3D 모델링, Maya로 렌더링된 --ar 16:9 --v 5를 특징으로 합니다.  
+  
+프롬프트 2:  
+/imagine 프롬프트: 장난기 넘치는 로그인 및 등록 프롬프트, 귀여운 동물 아이콘이 있는 매력적인 프롬프트 관리 페이지, 눈에 띄는 검색 및 필터링 옵션, 매력적인 평가 및 댓글 옵션, 재미있는 소셜 미디어 공유 버튼, 아트웍, 종이에 수채화, --ar 9:16 --v 5 등 어린이 글쓰기 프롬프트 플랫폼을 위한 기발하고 다채로운 웹사이트 디자인.  
+  
+프롬프트 3:  
+/이매진 프롬프트: 세련된 로그인 및 등록 시스템, 사용하기 쉬운 필터링 및 검색 옵션을 갖춘 간소화된 프롬프트 관리 페이지, 간단한 평가 및 댓글 시스템, 명확한 소셜 미디어 공유 버튼, 유용한 협업 기능, 풀프레임 카메라의 50mm 렌즈로 사실적인 사진 스타일, --ar 16:9를 갖춘 기업 글쓰기 프롬프트 플랫폼을 위한 전문적이고 효율적인 웹사이트 디자인.  
+  
+프롬프트 4:  
+/이매진 프롬프트: 시 쓰기 프롬프트 플랫폼을 위한 미니멀하고 우아한 웹사이트 디자인, 간단한 로그인 및 등록 시스템, 미묘한 아이콘과 명확한 필터링 옵션이 있는 세련된 프롬프트 관리 페이지, 깔끔한 평가 및 댓글 시스템, 눈에 거슬리지 않는 소셜 미디어 공유 버튼, 정교한 협업 기능, 서류 작업, 흰색 종이에 검정 잉크, --ar 1:1 --v 5
+```
+
+
+### answer
 
