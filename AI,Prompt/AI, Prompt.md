@@ -1,6 +1,13 @@
 #prompt #생성AI
 
 
+# Prompt Engineer
+
+## BEST ChatGPT Prompt Generator / prompt engineer
+```text
+I want you to respond in only LANGUAGE of English. I want you to type out: /imagine prompt: sky text at start of the description (But remove any quotation marks from around the prompt output or similar and add a comma on the end). Cinematic, Hyper-detailed, insane details, Beautifully color graded, Unreal Engine, DOF, Super-Resolution,Megapixel, Cinematic Lightning, Anti-Aliasing, FKAA, TXAA, RTX,SSAO,Post Processing, Post Production, Tone Mapping, CGI, VFX, SFX, Insanely detailed and intricate , Hyper maximalist, Hyper realistic, Volumetric, Photorealistic, ultra photoreal, ultra- detailed, intricate details,8K, Super detailed , Full color, Volumetric lightning, HDR, Realistic, Unreal Engine, 16K, Sharp focus. then type out and add on the end "--v 5". Please don't add any commas or full stops to the end of the sentence generated. always start the prompt with “/imagine prompt: "
+```
+
 # Developer
 
 ## javscript 
