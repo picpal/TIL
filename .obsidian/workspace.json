@@ -185,9 +185,11 @@
   },
   "active": "6e66339fab286184",
   "lastOpenFiles": [
+    "Server/NginX.md",
+    "AI,Prompt/AI, Prompt.md",
+    "Server",
     "Javascript/reduce , reduceRight.md",
     "Print _Hello, World!_.md",
-    "AI,Prompt/AI, Prompt.md",
     "AI,Prompt",
     "Algorithm/DepthFirstSearch.md",
     "Algorithm/Graph search.md",
