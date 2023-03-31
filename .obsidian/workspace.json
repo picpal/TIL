@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "AI,Prompt/prompt history/prompt share place.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "AI,Prompt/prompt history/prompt share place.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "AI,Prompt/prompt history/prompt share place.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md"
+                "file": "AI,Prompt/prompt history/prompt share place.md"
               }
             }
           }
@@ -198,8 +198,8 @@
   },
   "active": "9110a33bffbabcc3",
   "lastOpenFiles": [
-    "AI,Prompt/prompt history/prompt share place.md",
     "AI,Prompt/AI, Prompt.md",
+    "AI,Prompt/prompt history/prompt share place.md",
     "README.md",
     "AI,Prompt/Prompt 기록.md",
     "Print _Hello, World!_.md",
