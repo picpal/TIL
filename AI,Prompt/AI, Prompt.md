@@ -2,56 +2,20 @@
 
 
 # Prompt 질문 형식  
-GPT 프롬프트 엔지니어링에서는 다양한 프롬프트 명령 형식을 제공하고 있습니다. 
-이러한 명령 형식을 사용하여 원하는 결과물을 생성할 수 있습니다.
 
-가장 기본적인 형식은 "Generate [숫자] [텍스트]"입니다. 여기서 [숫자]는 생성할 문장의 개수를 의미하며, [텍스트]는 문장을 생성하기 위한 시작 문장으로 사용되는 텍스트입니다. 예를 들어 "Generate 5 I like to"와 같은 명령은 "I like to swim.", "I like to read books.", "I like to travel." 등 5개의 문장을 생성합니다.
+Generate [숫자] [텍스트] - "Generate 5 I love to" : "I love to dance.", "I love to cook.", "I love to travel." 등 5개의 문장을 생성합니다. Complete [텍스트] - "Complete I enjoy listening to" : "I enjoy listening to music.", "I enjoy listening to podcasts.", "I enjoy listening to audiobooks." 등과 같이 텍스트를 자동 완성합니다. Answer [질문] - "Answer What is the capital of Japan?" : "The capital of Japan is Tokyo."와 같은 답변을 생성합니다. Translate [텍스트] to [언어] - "Translate Good morning to Spanish" : "Buenos dias"와 같이 입력한 텍스트를 지정한 언어로 번역합니다. Explain [개념] - "Explain What is artificial intelligence?" : 입력한 개념을 자세히 설명하는 문장을 생성합니다. Paraphrase [텍스트] - "Paraphrase This book is very interesting." : "This book is quite fascinating."와 같이 입력한 텍스트를 다른 표현으로 변형합니다. Summarize [텍스트] - "Summarize the article about climate change" : 입력한 텍스트에 대한 간략한 요약문을 생성합니다. Compare [개념1] and [개념2] - "Compare democracy and dictatorship" : 두 개념에 대한 비교 문장을 생성합니다. Convert [숫자1] [단위1] to [단위2] - "Convert 100 kilometers to miles" : 입력한 단위를 다른 단위로 변환하는 문장을 생성합니다. Predict [데이터] - "Predict the stock price of Apple for the next month" : 입력한 데이터를 분석하여 예측 결과를 생성합니다.
 
-다른 명령 형식으로는 "Complete [텍스트]"와 "Answer [질문]"이 있습니다. "Complete [텍스트]"는 주어진 텍스트를 자동으로 완성하는 기능으로, 예를 들어 "Complete I like to sw"와 같은 명령은 "I like to swim."이나 "I like to swing." 등의 완성된 문장을 생성합니다. "Answer [질문]"은 주어진 질문에 대한 답변을 자동으로 생성하는 기능으로, 예를 들어 "Answer What is the capital of France?"와 같은 명령은 "The capital of France is Paris."와 같은 답변을 생성합니다.
 
-이 외에도 다양한 프롬프트 명령 형식이 있으며, 이러한 명령 형식을 조합하여 보다 다양하고 정확한 결과물을 생성할 수 있습니다.
 
-다양한 프롬프트 명령 형식이 있지만, 여기서는 대표적인 10개의 예시를 알려드리겠습니다.
 
-Generate [숫자] [텍스트]
 
--   "Generate 5 I love to" : "I love to dance.", "I love to cook.", "I love to travel." 등 5개의 문장을 생성합니다.
-
-Complete [텍스트]
-
--   "Complete I enjoy listening to" : "I enjoy listening to music.", "I enjoy listening to podcasts.", "I enjoy listening to audiobooks." 등과 같이 텍스트를 자동 완성합니다.
-
-Answer [질문]
-
--   "Answer What is the capital of Japan?" : "The capital of Japan is Tokyo."와 같은 답변을 생성합니다.
-
-Translate [텍스트] to [언어]
-
--   "Translate Good morning to Spanish" : "Buenos dias"와 같이 입력한 텍스트를 지정한 언어로 번역합니다.
-
-Explain [개념]
-
--   "Explain What is artificial intelligence?" : 입력한 개념을 자세히 설명하는 문장을 생성합니다.
-
-Paraphrase [텍스트]
-
--   "Paraphrase This book is very interesting." : "This book is quite fascinating."와 같이 입력한 텍스트를 다른 표현으로 변형합니다.
-
-Summarize [텍스트]
-
--   "Summarize the article about climate change" : 입력한 텍스트에 대한 간략한 요약문을 생성합니다.
-
-Compare [개념1] and [개념2]
-
--   "Compare democracy and dictatorship" : 두 개념에 대한 비교 문장을 생성합니다.
-
-Convert [숫자1] [단위1] to [단위2]
-
--   "Convert 100 kilometers to miles" : 입력한 단위를 다른 단위로 변환하는 문장을 생성합니다.
-
-Predict [데이터]
-
--   "Predict the stock price of Apple for the next month" : 입력한 데이터를 분석하여 예측 결과를 생성합니다.
+# 퓨샷(few-shot) 학습 구성요소
+ 
+| 요소                           | 설명                                                                                       |
+| ------------------------------ | ------------------------------------------------------------------------------------------ |
+| 작업 설명 ( Task Description ) | 모델이 수행할 작업에 관한 간단한 설명 (예 : “해달이라는 영어 단어를 프랑스어로 번역”)      |
+| 예시(Examples)                 | 모델이 수행할 작업을 보여주는 몇 가지 예시(예 : ‘sea otter → loutre de mer’라는 예를 제시) |
+| 프롬프트(Prompt)               |     새로운 예시의 시작 부분. 모델은 누락된 텍스트를 생성하여 예시를 완성해야 한다 <br /> (예 : ‘치즈’라는 영어 단어를 ‘cheese → ‘로 제시하면 여기에 해당하는 프랑스어 단어를 모델이 생성.)                                                                                       |
 
 
 
