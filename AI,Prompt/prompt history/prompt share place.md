@@ -364,3 +364,6 @@ Prompt 4: /imagine prompt: A minimalist and elegant website design for a poetry 
 
 ### answer
 
+
+
+## #9 (discode : midjourney)
