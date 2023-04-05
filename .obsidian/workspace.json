@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Server/AWS.md",
+                "file": "AI,Prompt/prompt history/prompt share place.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server/AWS.md",
+                "file": "AI,Prompt/prompt history/prompt share place.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Server/AWS.md",
+                "file": "AI,Prompt/prompt history/prompt share place.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Server/AWS.md"
+                "file": "AI,Prompt/prompt history/prompt share place.md"
               }
             }
           }
@@ -210,8 +210,8 @@
   },
   "active": "f424d875669d3380",
   "lastOpenFiles": [
-    "AI,Prompt/prompt history/prompt share place.md",
     "Server/AWS.md",
+    "AI,Prompt/prompt history/prompt share place.md",
     "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt 일기.md",
     "README.md",
