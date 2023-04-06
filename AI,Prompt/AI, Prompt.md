@@ -1,5 +1,8 @@
 #prompt #생성AI
 
+# My Bible
+https://www.promptingguide.ai/
+
 
 # Prompt 질문 형식  
 
