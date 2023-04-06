@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/prompt history/prompt share place.md",
+                "file": "AI,Prompt/AI, Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/prompt history/prompt share place.md",
+                "file": "AI,Prompt/AI, Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/prompt history/prompt share place.md"
+                "file": "AI,Prompt/AI, Prompt.md"
               }
             }
           }
@@ -208,10 +208,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f424d875669d3380",
+  "active": "6e66339fab286184",
   "lastOpenFiles": [
-    "Server/AWS.md",
+    "Algorithm/DepthFirstSearch.md",
+    "Javascript/callstack.md",
     "AI,Prompt/prompt history/prompt share place.md",
+    "무제 파일.md",
+    "Server/AWS.md",
     "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt 일기.md",
     "README.md",
@@ -222,10 +225,8 @@
     "Server",
     "Javascript/reduce , reduceRight.md",
     "AI,Prompt",
-    "Algorithm/DepthFirstSearch.md",
     "Algorithm/Graph search.md",
     "Javascript/Xpath Selector.md",
-    "Javascript/callstack.md",
     "Javascript/fetch vs Axios.md",
     "Javascript/Immutability.md",
     "Javascript/Object literal.md",
