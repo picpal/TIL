@@ -3,7 +3,7 @@
 # My Bible
 https://www.promptingguide.ai/
 https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
-
+https://seongjin.me/prompt-engineering-in-chatgpt/
 
 # Prompt 질문 형식  
 
