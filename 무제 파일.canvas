@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"443c99f0a5f19ec3","x":-360,"y":-120,"width":220,"height":220,"type":"text","text":"asdfasdf"},
+		{"id":"e7583b9ff74ee2fe","x":-40,"y":-40,"width":250,"height":60,"type":"text","text":"sadfsdaf"},
+		{"id":"43e9589a9e9756c7","x":-360,"y":220,"width":400,"height":240,"type":"file","file":"README.md"}
+	],
+	"edges":[
+		{"id":"2d7c43d7c0e9c728","fromNode":"443c99f0a5f19ec3","fromSide":"right","toNode":"e7583b9ff74ee2fe","toSide":"left"}
+	]
+}

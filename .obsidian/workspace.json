@@ -47,11 +47,14 @@
             "id": "6e66339fab286184",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
-                "mode": "source",
-                "source": false
+                "file": "무제 파일.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -146,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md"
+                "file": "README.md"
               }
             }
           }
@@ -210,8 +213,9 @@
   },
   "active": "6e66339fab286184",
   "lastOpenFiles": [
-    "AI,Prompt/prompt history/prompt share place.md",
     "AI,Prompt/AI, Prompt.md",
+    "무제 파일.canvas",
+    "AI,Prompt/prompt history/prompt share place.md",
     "Algorithm/DepthFirstSearch.md",
     "Javascript/callstack.md",
     "무제 파일.md",
@@ -233,7 +237,6 @@
     "Javascript/primitiveType.md",
     "Javascript/prototype.md",
     "CSS/is , where.md",
-    "C3/README.md",
-    "무제 파일.canvas"
+    "C3/README.md"
   ]
 }
