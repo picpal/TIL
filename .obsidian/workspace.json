@@ -32,6 +32,54 @@
             }
           },
           {
+            "id": "d96daa07dce0961d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/Prompt Engineering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12f16b904ab68ca4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/Prompt Engineering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47552b5168cc391b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/Prompt Engineering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bc32c25421de46f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/Prompt Engineering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f6d1b2218a8d7a9e",
             "type": "leaf",
             "state": {
@@ -80,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -97,9 +145,9 @@
             "id": "25283b6ce11f6719",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "diagram-edit",
               "state": {
-                "sortOrder": "alphabetical"
+                "file": "Untitled Diagram.svg"
               }
             }
           },
@@ -130,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 932.5
   },
   "right": {
     "id": "d076f55c83974493",
@@ -146,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering.md",
+                "file": "Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering.md",
+                "file": "Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering.md"
+                "file": "Untitled Diagram.svg"
               }
             }
           }
@@ -209,10 +257,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "badcd4e2ef81dcdc",
+  "active": "25283b6ce11f6719",
   "lastOpenFiles": [
-    "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt Engineering.md",
+    "Untitled Diagram.svg",
+    "AI,Prompt/Prompt Engineering/Basic Prompting.md",
+    "[Prompt Engineering.md",
+    "AI,Prompt/Prompt Engineering",
+    "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt 일기.md",
     "README.md",
     "무제 파일.canvas",

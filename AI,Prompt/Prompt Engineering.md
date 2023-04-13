@@ -22,34 +22,5 @@ ChatGPT 3.5 이용!!!!!!!!!!!!!!!!
 
 사용 중인 LLM 버전에 따라 결과가 달라질 수 있다는 점을 염두에 두세요.
 
-# Basics of Prompting
-## Basic Prompts
 
-간단한 프롬프트로도 많은 것을 얻을 수 있지만, 결과의 품질은 얼마나 많은 정보를 제공하고 얼마나 잘 만들었는지에 따라 달라집니다. 프롬프트에는 모델에 전달하는 지시 사항이나 질문과 같은 정보와 컨텍스트, 입력 또는 예제와 같은 기타 세부 정보가 포함될 수 있습니다. 이러한 요소를 사용하여 모델에 더 잘 지시하고 결과적으로 더 나은 결과를 얻을 수 있습니다.
-
-간단한 프롬프트의 기본 예제를 살펴보면서 시작해 보겠습니다:
-```prompt
-The sky is
-```
-
-```answer
-The sky is the region of the Earth's atmosphere that appears above the horizon, typically characterized by its blue color during the day and black color at night, and includes clouds, the sun, the moon, and stars.
-```
-
-
-이 기본 예시는 또한 구체적으로 달성하고자 하는 목표에 대해 더 많은 맥락이나 지침을 제공해야 할 필요성을 강조합니다.
-
-조금 개선해 보겠습니다:
-
-```prompt
-Complete the sentence: 
-The sky is
-```
-
-```answer
-The sky is a beautiful and ever-changing canvas that never fails to amaze us with its stunning colors, shapes, and patterns.
-```
-
-
-이제 좀 나아졌나요? 
-모델에 문장을 완성하라고 지시했더니 모델에 지시한 대로("문장을 완성하라") 결과가 훨씬 더 좋아 보입니다. 모델에 작업을 수행하도록 지시하는 최적의 프롬프트를 설계하는 이러한 접근 방식을 프롬프트 엔지니어링이라고 합니다.
+[[Basic Prompting]]
