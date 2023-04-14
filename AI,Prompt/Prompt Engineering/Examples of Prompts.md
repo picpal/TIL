@@ -260,3 +260,108 @@ Sure! Black holes are created when a very massive star runs out of fuel and coll
 
 
 # Code Generation
+
+LLM이 매우 효과적인 애플리케이션 중 하나는 코드 생성입니다. 코파일럿이 그 좋은 예입니다. 영리한 프롬프트를 통해 수행할 수 있는 코드 생성 작업은 무궁무진합니다. 아래에서 몇 가지 예를 살펴보겠습니다.
+
+먼저 사용자를 맞이하는 간단한 프로그램을 만들어 보겠습니다.
+
+_Prompt:_
+
+```
+/*Ask the user for their name and say "Hello"*/
+```
+
+_Output:_
+
+```
+let name = prompt("What is your name?");console.log(`Hello, ${name}!`);
+```
+
+
+사용할 언어를 지정할 필요조차 없었다는 것을 알 수 있습니다.
+
+이제 레벨을 조금 바꿔보겠습니다. 프롬프트를 디자인할 때 조금만 더 노력하면 LLM이 얼마나 강력해질 수 있는지 보여드리겠습니다.
+
+
+_Prompt:_
+
+```
+"""
+Table departments, columns = [DepartmentId, DepartmentName]
+Table students, columns = [DepartmentId, StudentId, StudentName]
+Create a MySQL query for all students in the Computer Science Department
+"""
+```
+
+_Output:_
+
+```
+SELECT 
+StudentId, StudentName 
+FROM students 
+WHERE DepartmentId IN (SELECT DepartmentId 
+FROM departments
+WHERE DepartmentName = 'Computer Science');
+```
+
+이것은 매우 인상적입니다. 이 경우 데이터베이스 스키마에 대한 데이터를 제공하고 유효한 MySQL 쿼리를 생성하도록 요청했습니다.
+
+
+# Reasoning ( 추론 )
+
+오늘날 LLM에게 가장 어려운 과제 중 하나는 아마도 어떤 형태의 추론이 필요한 과제일 것입니다. 추론은 LLM에서 나올 수 있는 복잡한 응용 프로그램의 유형으로 인해 제가 가장 흥미를 느끼는 분야 중 하나입니다.
+
+수학적 능력과 관련된 작업에서 일부 개선이 있었습니다. 하지만 현재 LLM은 추론 작업을 수행하는 데 어려움을 겪고 있으므로 더욱 고급 프롬프트 엔지니어링 기술이 필요하다는 점에 유의해야 합니다. 이러한 고급 기법은 다음 가이드에서 다룰 예정입니다. 지금은 산술 능력을 보여줄 수 있는 몇 가지 기본적인 예제를 살펴보겠습니다.
+
+_Prompt:_
+
+```
+What is 9,000 * 9,000?
+```
+
+_Output:_
+
+```
+81,000,000
+```
+
+
+좀 더 어려운 것을 시도해 봅시다.
+
+
+_Prompt:_
+
+```
+The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. A: 
+```
+
+_Output_
+
+```
+No, the odd numbers in this group add up to an odd number: 119.
+```
+
+잘못된 정보입니다! 프롬프트를 개선하여 이 문제를 개선해 보겠습니다.
+
+_Prompt:_
+
+```
+The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. Solve by breaking the problem into steps. First, identify the odd numbers, add them, and indicate whether the result is odd or even. 
+
+
+이 그룹의 홀수는 15, 32, 5, 13, 82, 7, 1과 같이 짝수로 합산됩니다.
+문제를 단계별로 나누어 풀어보세요. 먼저 홀수를 식별하고 더한 다음 결과가 홀수인지 짝수인지 표시합니다.
+```
+
+_Output:_
+
+```
+Odd numbers: 15, 5, 13, 7, 1Sum: 41 41 is an odd number.
+```
+
+
+훨씬 낫죠? 그런데 몇 번 시도해 보니 시스템이 가끔 실패합니다. 예제와 함께 더 나은 지침을 제공하면 더 정확한 결과를 얻는 데 도움이 될 수 있습니다.
+
+이 가이드의 이 섹션에 일반적인 애플리케이션에 대한 더 많은 예제를 계속 포함할 예정입니다.
+
+다음 섹션에서는 이러한 모든 작업과 더 어려운 작업의 성능을 개선하기 위한 훨씬 더 고급 프롬프트 엔지니어링 개념과 기법을 다룰 것입니다.
