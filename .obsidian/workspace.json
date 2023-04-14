@@ -85,19 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/General Tips for Designing PromptsGeneral Tips for Designing Prompts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55789b5d5adc7d5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
+                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -226,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
+                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
+                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Examples of Prompts.md"
+                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md"
               }
             }
           }
@@ -289,19 +277,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "55789b5d5adc7d5b",
+  "active": "3deb04211bb6f60e",
   "lastOpenFiles": [
-    "AI,Prompt/Prompt Engineering/General Tips for Designing PromptsGeneral Tips for Designing Prompts.md",
+    "AI,Prompt/Prompt Engineering/General Tips for Designing Prompts.md",
+    "Prompt Engineering.md",
+    "AI,Prompt/AI, Prompt.md",
+    "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
     "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
     "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
     "AI,Prompt/Prompt Engineering/Basic Prompting.md",
-    "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
     "AI,Prompt/prompt history/prompt seed.md",
     "무제 파일.canvas",
     "Untitled Diagram.svg",
-    "Prompt Engineering.md",
     "AI,Prompt/Prompt Engineering",
-    "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt 일기.md",
     "README.md",
     "Algorithm/DepthFirstSearch.md",

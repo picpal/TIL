@@ -24,3 +24,6 @@ ChatGPT 3.5 이용!!!!!!!!!!!!!!!!
 
 
 [[Basic Prompting]]
+[[Elements of a Prompt]]
+[[General Tips for Designing Prompts]]
+[[Examples of Prompts]]
