@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( admin ).md",
+                "file": "AI,Prompt/prompt seed/prompt seed ( DB ).md",
                 "mode": "source",
                 "source": false
               }
@@ -286,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( admin ).md",
+                "file": "AI,Prompt/prompt seed/prompt seed ( DB ).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( admin ).md",
+                "file": "AI,Prompt/prompt seed/prompt seed ( DB ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( admin ).md"
+                "file": "AI,Prompt/prompt seed/prompt seed ( DB ).md"
               }
             }
           }
@@ -351,14 +351,14 @@
   },
   "active": "1ea9f7428cac25b7",
   "lastOpenFiles": [
-    "AI,Prompt/prompt seed/prompt seed.md",
-    "AI,Prompt/prompt seed/prompt seed ( admin ).md",
-    "AI,Prompt/prompt history/무제 파일.md",
-    "AI,Prompt/prompt seed/prompt seed ( server ).md",
     "AI,Prompt/prompt seed/prompt seed ( back ).md",
-    "AI,Prompt/prompt seed/prompt seed ( front ).md",
-    "AI,Prompt/prompt seed/prompt seed ( design ).md",
     "AI,Prompt/prompt seed/prompt seed ( DB ).md",
+    "AI,Prompt/prompt seed/prompt seed ( design ).md",
+    "AI,Prompt/prompt seed/prompt seed ( front ).md",
+    "AI,Prompt/prompt seed/prompt seed ( server ).md",
+    "AI,Prompt/prompt seed/prompt seed ( admin ).md",
+    "AI,Prompt/prompt seed/prompt seed.md",
+    "AI,Prompt/prompt history/무제 파일.md",
     "AI,Prompt/Prompt 일기.md",
     "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
