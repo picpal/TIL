@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
+                "file": "AI,Prompt/prompt history/prompt seed.md",
                 "mode": "source",
                 "source": false
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
+                "file": "AI,Prompt/prompt history/prompt seed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
+                "file": "AI,Prompt/prompt history/prompt seed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md"
+                "file": "AI,Prompt/prompt history/prompt seed.md"
               }
             }
           }
@@ -279,10 +279,11 @@
   },
   "active": "3deb04211bb6f60e",
   "lastOpenFiles": [
-    "AI,Prompt/Prompt Engineering/General Tips for Designing Prompts.md",
-    "Prompt Engineering.md",
+    "AI,Prompt/Prompt 일기.md",
     "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
+    "AI,Prompt/Prompt Engineering/General Tips for Designing Prompts.md",
+    "Prompt Engineering.md",
     "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
     "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
     "AI,Prompt/Prompt Engineering/Basic Prompting.md",
@@ -290,7 +291,6 @@
     "무제 파일.canvas",
     "Untitled Diagram.svg",
     "AI,Prompt/Prompt Engineering",
-    "AI,Prompt/Prompt 일기.md",
     "README.md",
     "Algorithm/DepthFirstSearch.md",
     "Javascript/callstack.md",
