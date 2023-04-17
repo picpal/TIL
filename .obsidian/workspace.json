@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/prompt history/prompt seed.md",
+                "file": "AI,Prompt/prompt history/prompt seed ( admin ).md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/prompt history/무제 파일.md",
+                "file": "AI,Prompt/prompt history/prompt seed ( admin ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d7c6d46af781b9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/prompt history/prompt seed ( admin ).md",
                 "mode": "source",
                 "source": false
               }
@@ -189,7 +201,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/prompt history/prompt seed.md",
+                "file": "AI,Prompt/prompt history/prompt seed ( admin ).md",
                 "mode": "source",
                 "source": false
               }
@@ -201,14 +213,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/prompt history/prompt seed.md",
+                "file": "AI,Prompt/prompt history/prompt seed ( admin ).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -274,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/prompt history/무제 파일.md",
+                "file": "AI,Prompt/prompt history/prompt seed ( admin ).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/prompt history/무제 파일.md",
+                "file": "AI,Prompt/prompt history/prompt seed ( admin ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/prompt history/무제 파일.md"
+                "file": "AI,Prompt/prompt history/prompt seed ( admin ).md"
               }
             }
           }
@@ -337,14 +349,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9395c7c5f95f5b0b",
+  "active": "17b856bbf23de021",
   "lastOpenFiles": [
-    "AI,Prompt/prompt history/prompt seed ( back ).md",
     "AI,Prompt/prompt history/무제 파일.md",
+    "AI,Prompt/prompt history/prompt seed ( admin ).md",
+    "AI,Prompt/prompt history/prompt seed ( server ).md",
+    "AI,Prompt/prompt history/prompt seed ( back ).md",
     "AI,Prompt/prompt history/prompt seed ( front ).md",
     "AI,Prompt/prompt history/prompt seed ( design ).md",
     "AI,Prompt/prompt history/prompt seed ( DB ).md",
-    "AI,Prompt/prompt history/prompt seed.md",
     "AI,Prompt/Prompt 일기.md",
     "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
@@ -369,7 +382,6 @@
     "Javascript/reduce , reduceRight.md",
     "AI,Prompt",
     "Algorithm/Graph search.md",
-    "Javascript/Xpath Selector.md",
-    "Javascript/fetch vs Axios.md"
+    "Javascript/Xpath Selector.md"
   ]
 }
