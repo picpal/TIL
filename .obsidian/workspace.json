@@ -92,6 +92,66 @@
             }
           },
           {
+            "id": "b573e26dcb2d40be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/prompt history/prompt seed ( DB ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18a5379fb70c6219",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/prompt history/prompt seed ( design ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "633b137bc15b1a6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/prompt history/prompt seed ( front ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "caf8b3b4f3f6c47d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/prompt history/prompt seed ( back ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9395c7c5f95f5b0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI,Prompt/prompt history/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "eebcbfc678cdf771",
             "type": "leaf",
             "state": {
@@ -148,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -214,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/prompt history/prompt seed.md",
+                "file": "AI,Prompt/prompt history/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/prompt history/prompt seed.md",
+                "file": "AI,Prompt/prompt history/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/prompt history/prompt seed.md"
+                "file": "AI,Prompt/prompt history/무제 파일.md"
               }
             }
           }
@@ -277,8 +337,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3deb04211bb6f60e",
+  "active": "9395c7c5f95f5b0b",
   "lastOpenFiles": [
+    "AI,Prompt/prompt history/prompt seed ( back ).md",
+    "AI,Prompt/prompt history/무제 파일.md",
+    "AI,Prompt/prompt history/prompt seed ( front ).md",
+    "AI,Prompt/prompt history/prompt seed ( design ).md",
+    "AI,Prompt/prompt history/prompt seed ( DB ).md",
+    "AI,Prompt/prompt history/prompt seed.md",
     "AI,Prompt/Prompt 일기.md",
     "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
@@ -287,7 +353,6 @@
     "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
     "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
     "AI,Prompt/Prompt Engineering/Basic Prompting.md",
-    "AI,Prompt/prompt history/prompt seed.md",
     "무제 파일.canvas",
     "Untitled Diagram.svg",
     "AI,Prompt/Prompt Engineering",
@@ -305,11 +370,6 @@
     "AI,Prompt",
     "Algorithm/Graph search.md",
     "Javascript/Xpath Selector.md",
-    "Javascript/fetch vs Axios.md",
-    "Javascript/Immutability.md",
-    "Javascript/Object literal.md",
-    "Javascript/primitiveType.md",
-    "Javascript/prototype.md",
-    "CSS/is , where.md"
+    "Javascript/fetch vs Axios.md"
   ]
 }
