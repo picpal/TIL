@@ -2,3 +2,24 @@
 # aws vpc
 
 ![[Pasted image 20230418142438.png]]
+
+![[Pasted image 20230418142549.png]]
+
+
+VPC 생성하기 누르면
+![[Pasted image 20230418142706.png]]
+
+생성완료 후 `VPC 보기` 후 좌측 메뉴에서 서브넷 클릭
+
+
+![[Pasted image 20230418142916.png]]
+
+
+
+6개의 서브넷이 생성되어야 합니다.
+
+원하는 서브넷을 선택하고 **Actions** -> **Edit Subnet Settings 를** 누르십시오 .
+
+![[Pasted image 20230418143355.png]]
+
+
