@@ -4,223 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ac4c27c4a7b4c3ac",
+        "id": "de86e6fc21da3fe4",
         "type": "tabs",
         "children": [
           {
-            "id": "8c6c9de7908ff99c",
+            "id": "11cf4db019568272",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "badcd4e2ef81dcdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d96daa07dce0961d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12f16b904ab68ca4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47552b5168cc391b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/Prompt Engineering/Basic Prompting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d15bb49afcd020fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3deb04211bb6f60e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( admin ).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b573e26dcb2d40be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( DB ).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18a5379fb70c6219",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( design ).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "633b137bc15b1a6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( front ).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "caf8b3b4f3f6c47d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( back ).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9395c7c5f95f5b0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( admin ).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ea9f7428cac25b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( DB ).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eebcbfc678cdf771",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f6d1b2218a8d7a9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/DepthFirstSearch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cb5d95310f5b2eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/DepthFirstSearch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9110a33bffbabcc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( admin ).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f424d875669d3380",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( admin ).md",
+                "file": "Server/AWS/3 tier architecture.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -286,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( DB ).md",
+                "file": "Server/AWS/3 tier architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( DB ).md",
+                "file": "Server/AWS/3 tier architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed ( DB ).md"
+                "file": "Server/AWS/3 tier architecture.md"
               }
             }
           }
@@ -349,39 +148,41 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1ea9f7428cac25b7",
+  "active": "11cf4db019568272",
   "lastOpenFiles": [
-    "AI,Prompt/prompt seed/prompt seed ( back ).md",
+    "Pasted image 20230418142438.png",
+    "Pasted image 20230418142400.png",
+    "Server/AWS",
+    "AI,Prompt/prompt seed/prompt seed ( admin ).md",
+    "Algorithm/DepthFirstSearch.md",
+    "AI,Prompt/AI, Prompt.md",
+    "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
+    "AI,Prompt/Prompt Engineering/Basic Prompting.md",
+    "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
     "AI,Prompt/prompt seed/prompt seed ( DB ).md",
     "AI,Prompt/prompt seed/prompt seed ( design ).md",
     "AI,Prompt/prompt seed/prompt seed ( front ).md",
+    "AI,Prompt/prompt seed/prompt seed ( back ).md",
+    "Server/AWS/3 tier architecture.md",
     "AI,Prompt/prompt seed/prompt seed ( server ).md",
-    "AI,Prompt/prompt seed/prompt seed ( admin ).md",
     "AI,Prompt/prompt seed/prompt seed.md",
     "AI,Prompt/prompt history/무제 파일.md",
     "AI,Prompt/Prompt 일기.md",
-    "AI,Prompt/AI, Prompt.md",
-    "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
     "AI,Prompt/Prompt Engineering/General Tips for Designing Prompts.md",
     "Prompt Engineering.md",
     "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
-    "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
-    "AI,Prompt/Prompt Engineering/Basic Prompting.md",
     "무제 파일.canvas",
     "Untitled Diagram.svg",
     "AI,Prompt/Prompt Engineering",
     "README.md",
-    "Algorithm/DepthFirstSearch.md",
     "Javascript/callstack.md",
     "무제 파일.md",
-    "Server/AWS.md",
     "Print _Hello, World!_.md",
     "AI,Prompt/prompt history/Nginx.md",
     "AI,Prompt/prompt seed",
     "Server/NginX.md",
     "Server",
     "Javascript/reduce , reduceRight.md",
-    "AI,Prompt",
-    "Algorithm/Graph search.md"
+    "AI,Prompt"
   ]
 }
