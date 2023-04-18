@@ -23,3 +23,22 @@ VPC 생성하기 누르면
 ![[Pasted image 20230418143355.png]]
 
 
+2개의 public 서브넷에서 아래와 같이 체크 후 저장
+
+![[Pasted image 20230418143540.png]]
+
+
+
+
+EC2 대시보드로 이동
+
+![[Pasted image 20230418143758.png]]
+
+![[Pasted image 20230418143816.png]]
+
+
+![[Pasted image 20230418144324.png]]
+
+
+EC2 대시보드에서 `시작 탬플릿` 메뉴 클릭
+![[Pasted image 20230418144448.png]]
