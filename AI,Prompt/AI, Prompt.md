@@ -5,6 +5,8 @@ https://www.promptingguide.ai/
 https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
 https://seongjin.me/prompt-engineering-in-chatgpt/
 
+https://www.chatgpters.org/c/beginners/gpt-f663ae
+
 # Prompt 질문 형식  
 
 Generate [숫자] [텍스트] - "Generate 5 I love to" : "I love to dance.", "I love to cook.", "I love to travel." 등 5개의 문장을 생성합니다. Complete [텍스트] - "Complete I enjoy listening to" : "I enjoy listening to music.", "I enjoy listening to podcasts.", "I enjoy listening to audiobooks." 등과 같이 텍스트를 자동 완성합니다. Answer [질문] - "Answer What is the capital of Japan?" : "The capital of Japan is Tokyo."와 같은 답변을 생성합니다. Translate [텍스트] to [언어] - "Translate Good morning to Spanish" : "Buenos dias"와 같이 입력한 텍스트를 지정한 언어로 번역합니다. Explain [개념] - "Explain What is artificial intelligence?" : 입력한 개념을 자세히 설명하는 문장을 생성합니다. Paraphrase [텍스트] - "Paraphrase This book is very interesting." : "This book is quite fascinating."와 같이 입력한 텍스트를 다른 표현으로 변형합니다. Summarize [텍스트] - "Summarize the article about climate change" : 입력한 텍스트에 대한 간략한 요약문을 생성합니다. Compare [개념1] and [개념2] - "Compare democracy and dictatorship" : 두 개념에 대한 비교 문장을 생성합니다. Convert [숫자1] [단위1] to [단위2] - "Convert 100 kilometers to miles" : 입력한 단위를 다른 단위로 변환하는 문장을 생성합니다. Predict [데이터] - "Predict the stock price of Apple for the next month" : 입력한 데이터를 분석하여 예측 결과를 생성합니다.

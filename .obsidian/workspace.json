@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Server/AWS/3 tier architecture.md",
+                "file": "AI,Prompt/AI, Prompt.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server/AWS/3 tier architecture.md",
+                "file": "AI,Prompt/AI, Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Server/AWS/3 tier architecture.md",
+                "file": "AI,Prompt/AI, Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Server/AWS/3 tier architecture.md"
+                "file": "AI,Prompt/AI, Prompt.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "11cf4db019568272",
   "lastOpenFiles": [
+    "Server/AWS/3 tier architecture.md",
     "Pasted image 20230418150253.png",
     "Pasted image 20230418150055.png",
     "Pasted image 20230418150041 1.png",
@@ -160,7 +161,6 @@
     "Pasted image 20230418144448.png",
     "Pasted image 20230418144324.png",
     "Pasted image 20230418143816.png",
-    "Pasted image 20230418143758.png",
     "Server/AWS",
     "AI,Prompt/prompt seed/prompt seed ( admin ).md",
     "Algorithm/DepthFirstSearch.md",
@@ -172,7 +172,6 @@
     "AI,Prompt/prompt seed/prompt seed ( design ).md",
     "AI,Prompt/prompt seed/prompt seed ( front ).md",
     "AI,Prompt/prompt seed/prompt seed ( back ).md",
-    "Server/AWS/3 tier architecture.md",
     "AI,Prompt/prompt seed/prompt seed ( server ).md",
     "AI,Prompt/prompt seed/prompt seed.md",
     "AI,Prompt/prompt history/무제 파일.md",
