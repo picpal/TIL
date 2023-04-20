@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "right": {
     "id": "d076f55c83974493",
@@ -134,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,8 +150,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "17b856bbf23de021",
+  "active": "11cf4db019568272",
   "lastOpenFiles": [
+    "Pasted image 20230420105557.png",
+    "Pasted image 20230420104211.png",
     "README.md",
     "무제 파일.canvas",
     "Untitled Diagram.svg",
@@ -162,7 +166,6 @@
     "Pasted image 20230418143758.png",
     "Pasted image 20230418142916.png",
     "Pasted image 20230418142549.png",
-    "Pasted image 20230418142438.png",
     "Server/AWS/VPC.md",
     "AI,Prompt/AI, Prompt.md",
     "Server/AWS",
