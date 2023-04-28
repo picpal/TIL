@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Server/AWS/VPC.md",
+                "file": "AI,Prompt/AI, Prompt.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server/AWS/VPC.md",
+                "file": "AI,Prompt/AI, Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Server/AWS/VPC.md",
+                "file": "AI,Prompt/AI, Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Server/AWS/VPC.md"
+                "file": "AI,Prompt/AI, Prompt.md"
               }
             }
           }
@@ -151,6 +151,12 @@
   },
   "active": "11cf4db019568272",
   "lastOpenFiles": [
+    "AI,Prompt/Prompt Engineering/Basic Prompting.md",
+    "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
+    "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
+    "AI,Prompt/Prompt Engineering/General Tips for Designing Prompts.md",
+    "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
+    "Server/AWS/VPC.md",
     "Pasted image 20230420105557.png",
     "Pasted image 20230420104211.png",
     "README.md",
@@ -164,15 +170,10 @@
     "Pasted image 20230418145950.png",
     "Pasted image 20230418143758.png",
     "Pasted image 20230418142916.png",
-    "Pasted image 20230418142549.png",
-    "Server/AWS/VPC.md",
     "AI,Prompt/AI, Prompt.md",
     "Server/AWS",
     "AI,Prompt/prompt seed/prompt seed ( admin ).md",
     "Algorithm/DepthFirstSearch.md",
-    "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
-    "AI,Prompt/Prompt Engineering/Basic Prompting.md",
-    "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
     "AI,Prompt/prompt seed/prompt seed ( DB ).md",
     "AI,Prompt/prompt seed/prompt seed ( design ).md",
     "AI,Prompt/prompt seed/prompt seed ( front ).md",
@@ -181,9 +182,7 @@
     "AI,Prompt/prompt seed/prompt seed.md",
     "AI,Prompt/prompt history/무제 파일.md",
     "AI,Prompt/Prompt 일기.md",
-    "AI,Prompt/Prompt Engineering/General Tips for Designing Prompts.md",
     "Prompt Engineering.md",
-    "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
     "AI,Prompt/Prompt Engineering",
     "Javascript/callstack.md",
     "무제 파일.md",
