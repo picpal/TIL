@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "AI,Prompt/prompt seed/prompt seed.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "AI,Prompt/prompt seed/prompt seed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md",
+                "file": "AI,Prompt/prompt seed/prompt seed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/AI, Prompt.md"
+                "file": "AI,Prompt/prompt seed/prompt seed.md"
               }
             }
           }
@@ -152,6 +152,8 @@
   "active": "11cf4db019568272",
   "lastOpenFiles": [
     "AI,Prompt/Prompt Engineering/Basic Prompting.md",
+    "Java/base64_encode.md",
+    "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
     "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
     "AI,Prompt/Prompt Engineering/General Tips for Designing Prompts.md",
@@ -170,7 +172,6 @@
     "Pasted image 20230418145950.png",
     "Pasted image 20230418143758.png",
     "Pasted image 20230418142916.png",
-    "AI,Prompt/AI, Prompt.md",
     "Server/AWS",
     "AI,Prompt/prompt seed/prompt seed ( admin ).md",
     "Algorithm/DepthFirstSearch.md",
