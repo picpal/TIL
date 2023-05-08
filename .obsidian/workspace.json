@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed.md",
-                "mode": "source",
+                "file": "Algorithm/Recursion.md",
+                "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "7f3b03cf3d3b2dcd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,6 +75,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "d374ef323a5d9a86",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed.md",
+                "file": "Algorithm/Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed.md",
+                "file": "Algorithm/Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed.md"
+                "file": "Algorithm/Recursion.md"
               }
             }
           }
@@ -149,15 +168,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "11cf4db019568272",
+  "active": "7f3b03cf3d3b2dcd",
   "lastOpenFiles": [
-    "AI,Prompt/Prompt Engineering/Basic Prompting.md",
-    "Java/base64_encode.md",
     "AI,Prompt/AI, Prompt.md",
+    "AI,Prompt/Prompt Engineering/Basic Prompting.md",
     "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
     "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
     "AI,Prompt/Prompt Engineering/General Tips for Designing Prompts.md",
     "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
+    "AI,Prompt/prompt seed/prompt seed.md",
+    "Java/base64_encode.md",
     "Server/AWS/VPC.md",
     "Pasted image 20230420105557.png",
     "Pasted image 20230420104211.png",
@@ -180,7 +200,6 @@
     "AI,Prompt/prompt seed/prompt seed ( front ).md",
     "AI,Prompt/prompt seed/prompt seed ( back ).md",
     "AI,Prompt/prompt seed/prompt seed ( server ).md",
-    "AI,Prompt/prompt seed/prompt seed.md",
     "AI,Prompt/prompt history/무제 파일.md",
     "AI,Prompt/Prompt 일기.md",
     "Prompt Engineering.md",
