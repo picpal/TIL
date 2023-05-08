@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Recursion.md",
+                "file": "Algorithm&자료구조/Doubly Linked List.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "7f3b03cf3d3b2dcd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Recursion.md",
+                "file": "Algorithm&자료구조/Doubly Linked List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Recursion.md",
+                "file": "Algorithm&자료구조/Doubly Linked List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Recursion.md"
+                "file": "Algorithm&자료구조/Doubly Linked List.md"
               }
             }
           }
@@ -168,23 +157,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f3b03cf3d3b2dcd",
+  "active": "11cf4db019568272",
   "lastOpenFiles": [
+    "Algorithm&자료구조/Singly Linked List.md",
+    "Algorithm&자료구조/Sliding Window.md",
+    "Algorithm&자료구조/Divide And Conqure.md",
+    "Algorithm&자료구조/Recursion.md",
+    "Algorithm&자료구조/Multiple Pointer.md",
+    "Algorithm&자료구조/Frequency Counter.md",
+    "Algorithm&자료구조/Sort/Selection Sort.md",
+    "Algorithm&자료구조/Search/Binary Search.md",
+    "Algorithm&자료구조/Search",
+    "Algorithm&자료구조/Sort",
+    "Algorithm&자료구조/Doubly Linked List.md",
+    "Algorithm&자료구조/Divide Conquer.md",
+    "Algorithm&자료구조/Search/Depth First Search.md",
+    "Algorithm&자료구조/Sort/Bubble Sort.md",
+    "Algorithm&자료구조/빈도수 체크.md",
+    "Algorithm&자료구조/다중 포인터 (탐색, 변경).md",
+    "Algorithm&자료구조/기준점간 이동 배열 패턴 ( SlidingWindow ).md",
+    "Algorithm&자료구조/알고리즘,자료구조.md",
+    "Algorithm&자료구조/Sort/Quick sort.md",
+    "Algorithm&자료구조/Sort/Insertion Sort.md",
+    "Algorithm&자료구조/Search/Linear Search.md",
+    "Algorithm&자료구조/Sort/Heap sort.md",
+    "Algorithm&자료구조/Sort/Merge Sort.md",
+    "Algorithm&자료구조/Search/Graph search.md",
+    "알고리즘,자료구조 49af8291da234d6dbe835dcc2dda5518.md",
     "AI,Prompt/AI, Prompt.md",
     "AI,Prompt/Prompt Engineering/Basic Prompting.md",
-    "AI,Prompt/Prompt Engineering/Elements of a Prompt.md",
-    "AI,Prompt/Prompt Engineering/Examples of Prompts.md",
-    "AI,Prompt/Prompt Engineering/General Tips for Designing Prompts.md",
-    "AI,Prompt/Prompt Engineering/Prompt Engineering.md",
-    "AI,Prompt/prompt seed/prompt seed.md",
-    "Java/base64_encode.md",
-    "Server/AWS/VPC.md",
     "Pasted image 20230420105557.png",
     "Pasted image 20230420104211.png",
-    "README.md",
     "무제 파일.canvas",
     "Untitled Diagram.svg",
-    "Server/AWS/3 tier architecture.md",
     "Pasted image 20230418150253.png",
     "Pasted image 20230418150055.png",
     "Pasted image 20230418150041.png",
@@ -193,23 +198,8 @@
     "Pasted image 20230418143758.png",
     "Pasted image 20230418142916.png",
     "Server/AWS",
-    "AI,Prompt/prompt seed/prompt seed ( admin ).md",
-    "Algorithm/DepthFirstSearch.md",
-    "AI,Prompt/prompt seed/prompt seed ( DB ).md",
-    "AI,Prompt/prompt seed/prompt seed ( design ).md",
-    "AI,Prompt/prompt seed/prompt seed ( front ).md",
-    "AI,Prompt/prompt seed/prompt seed ( back ).md",
-    "AI,Prompt/prompt seed/prompt seed ( server ).md",
-    "AI,Prompt/prompt history/무제 파일.md",
-    "AI,Prompt/Prompt 일기.md",
-    "Prompt Engineering.md",
     "AI,Prompt/Prompt Engineering",
-    "Javascript/callstack.md",
-    "무제 파일.md",
-    "Print _Hello, World!_.md",
-    "AI,Prompt/prompt history/Nginx.md",
     "AI,Prompt/prompt seed",
-    "Server/NginX.md",
     "Server",
     "AI,Prompt"
   ]

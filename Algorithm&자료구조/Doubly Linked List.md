@@ -1,4 +1,4 @@
-# Doubly Linked List
+# 이중 연결 리스트
 
 > https://visualgo.net/en
 
