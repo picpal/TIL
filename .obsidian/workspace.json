@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm&자료구조/Doubly Linked List.md",
-                "mode": "preview",
+                "file": "Algorithm&자료구조/Robot in a Grid.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm&자료구조/Doubly Linked List.md",
+                "file": "Algorithm&자료구조/Robot in a Grid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm&자료구조/Doubly Linked List.md",
+                "file": "Algorithm&자료구조/Robot in a Grid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm&자료구조/Doubly Linked List.md"
+                "file": "Algorithm&자료구조/Robot in a Grid.md"
               }
             }
           }
@@ -159,6 +159,8 @@
   },
   "active": "11cf4db019568272",
   "lastOpenFiles": [
+    "Algorithm&자료구조/Doubly Linked List.md",
+    "Algorithm&자료구조/Robot in a Grid.md",
     "Algorithm&자료구조/Singly Linked List.md",
     "Algorithm&자료구조/Sliding Window.md",
     "Algorithm&자료구조/Divide And Conqure.md",
@@ -169,7 +171,6 @@
     "Algorithm&자료구조/Search/Binary Search.md",
     "Algorithm&자료구조/Search",
     "Algorithm&자료구조/Sort",
-    "Algorithm&자료구조/Doubly Linked List.md",
     "Algorithm&자료구조/Divide Conquer.md",
     "Algorithm&자료구조/Search/Depth First Search.md",
     "Algorithm&자료구조/Sort/Bubble Sort.md",
