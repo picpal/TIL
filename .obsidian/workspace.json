@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "de86e6fc21da3fe4",
+        "id": "288a06eb4da97b24",
         "type": "tabs",
         "children": [
           {
-            "id": "11cf4db019568272",
+            "id": "d11e04b7c0db6982",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/SpringBoot + Gradle 폐쇠망 사용.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56928d8c6ff6d33c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.8"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/SpringBoot + Gradle 폐쇠망 사용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/SpringBoot + Gradle 폐쇠망 사용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Java/SpringBoot + Gradle 폐쇠망 사용.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -168,10 +149,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "56928d8c6ff6d33c",
+  "active": "d11e04b7c0db6982",
   "lastOpenFiles": [
-    "Algorithm&자료구조/Robot in a Grid.md",
     "Java/SpringBoot + Gradle 폐쇠망 사용.md",
+    "Algorithm&자료구조/Robot in a Grid.md",
     "Java/무제 폴더",
     "Algorithm&자료구조/Doubly Linked List.md",
     "Algorithm&자료구조/Singly Linked List.md",
