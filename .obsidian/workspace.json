@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "288a06eb4da97b24",
+        "id": "9dcfca3be2905237",
         "type": "tabs",
         "children": [
           {
-            "id": "d11e04b7c0db6982",
+            "id": "2f58b91b7b359f3f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Obsidian git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tools/Obsidian git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tools/Obsidian git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tools/Obsidian git.md"
+              }
             }
           }
         ],
@@ -149,8 +157,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d11e04b7c0db6982",
+  "active": "2f58b91b7b359f3f",
   "lastOpenFiles": [
+    "Tools/Obsidian.md",
+    "Tools/Obsidian git.md",
+    "React/ReactBasic/useEffect.md",
+    "Tools",
     "Java/SpringBoot + Gradle 폐쇠망 사용.md",
     "Algorithm&자료구조/Robot in a Grid.md",
     "Java/무제 폴더",
@@ -177,9 +189,6 @@
     "Algorithm&자료구조/Search/Linear Search.md",
     "Algorithm&자료구조/Sort/Heap sort.md",
     "Algorithm&자료구조/Sort/Merge Sort.md",
-    "Algorithm&자료구조/Search/Graph search.md",
-    "알고리즘,자료구조 49af8291da234d6dbe835dcc2dda5518.md",
-    "AI,Prompt/AI, Prompt.md",
     "Pasted image 20230420105557.png",
     "Pasted image 20230420104211.png",
     "무제 파일.canvas",
