@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "56928d8c6ff6d33c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "11cf4db019568272",
+  "active": "56928d8c6ff6d33c",
   "lastOpenFiles": [
     "Algorithm&자료구조/Robot in a Grid.md",
     "Java/SpringBoot + Gradle 폐쇠망 사용.md",
