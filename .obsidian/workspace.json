@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Obsidian git.md",
+                "file": "AI,Prompt/prompt seed/prompt seed.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Obsidian git.md",
+                "file": "AI,Prompt/prompt seed/prompt seed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Obsidian git.md",
+                "file": "AI,Prompt/prompt seed/prompt seed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Obsidian git.md"
+                "file": "AI,Prompt/prompt seed/prompt seed.md"
               }
             }
           }
@@ -159,8 +159,10 @@
   },
   "active": "2f58b91b7b359f3f",
   "lastOpenFiles": [
-    "Tools/Obsidian.md",
+    "AI,Prompt/prompt seed/prompt seed ( admin ).md",
+    "AI,Prompt/prompt seed/prompt seed.md",
     "Tools/Obsidian git.md",
+    "Tools/Obsidian.md",
     "React/ReactBasic/useEffect.md",
     "Tools",
     "Java/SpringBoot + Gradle 폐쇠망 사용.md",
@@ -187,8 +189,6 @@
     "Algorithm&자료구조/Sort/Quick sort.md",
     "Algorithm&자료구조/Sort/Insertion Sort.md",
     "Algorithm&자료구조/Search/Linear Search.md",
-    "Algorithm&자료구조/Sort/Heap sort.md",
-    "Algorithm&자료구조/Sort/Merge Sort.md",
     "Pasted image 20230420105557.png",
     "Pasted image 20230420104211.png",
     "무제 파일.canvas",
