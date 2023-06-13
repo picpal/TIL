@@ -35,9 +35,11 @@
             "id": "e1820b3fdf9ae055",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.3.5"
+                "file": "Algorithm&자료구조/자료구조/Stack.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -116,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TailwindCSS/install.md",
+                "file": "Algorithm&자료구조/자료구조/Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TailwindCSS/install.md",
+                "file": "Algorithm&자료구조/자료구조/Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TailwindCSS/install.md"
+                "file": "Algorithm&자료구조/자료구조/Stack.md"
               }
             }
           }
@@ -182,6 +184,10 @@
   },
   "active": "e1820b3fdf9ae055",
   "lastOpenFiles": [
+    "Algorithm&자료구조/자료구조/Queue.md",
+    "Algorithm&자료구조/자료구조/Stack.md",
+    "Algorithm&자료구조/자료구조",
+    "Algorithm&자료구조/Recursion.md",
     "TailwindCSS/pakagejson설정 주의사항.md",
     "TailwindCSS/install.md",
     "Tools/Obsidian git.md",
@@ -202,7 +208,6 @@
     "Algorithm&자료구조/Doubly Linked List.md",
     "Algorithm&자료구조/Singly Linked List.md",
     "Algorithm&자료구조/Sliding Window.md",
-    "Algorithm&자료구조/Recursion.md",
     "Algorithm&자료구조/Multiple Pointer.md",
     "Algorithm&자료구조/Frequency Counter.md",
     "Algorithm&자료구조/Sort/Selection Sort.md",
@@ -210,8 +215,6 @@
     "Algorithm&자료구조/Sort",
     "Algorithm&자료구조/Divide Conquer.md",
     "Algorithm&자료구조/빈도수 체크.md",
-    "Algorithm&자료구조/다중 포인터 (탐색, 변경).md",
-    "Algorithm&자료구조/기준점간 이동 배열 패턴 ( SlidingWindow ).md",
     "Pasted image 20230420105557.png",
     "Pasted image 20230420104211.png",
     "무제 파일.canvas",
