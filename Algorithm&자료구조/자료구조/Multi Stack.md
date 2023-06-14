@@ -50,11 +50,35 @@ class FixedMultiStacks {
 
 	public int pop(int stackNum){
 		if(isEmpty(stackNum)){
-			throw n
+			throw new EmptyStackException();
+		}
+		int top = getTopIndex(stackNum);
+		int data = values[top];
+		values[top] = 0;
+		sizes[stackNum]--;
+		return data;
+	}
+
+	public int peek(int stackNum){
+		if(isEmpty(stackNum)){
+			throw new EmptyStackException();
+		}
+		return values[getTopIndex(stackNum)];
+	}
+}
+
+public class Test{
+	public static void main(String[] args){
+		FixedMultiStaks ms = new FixedMultiStacks(5);
+		try{
+			ms.push(0,1);
+		}catch(FullStackException e){
+			System.out.println("It's Full");
 		}
 	}
 
 }
+
 ```
 
 
