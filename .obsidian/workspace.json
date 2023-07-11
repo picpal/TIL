@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/prompt seed/prompt seed.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12cac51ef5650c99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TailwindCSS/install.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1820b3fdf9ae055",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Oracle/Error) Merge 동시성 오류.md",
+                "file": "Algorithm&자료구조/자료구조/Queue.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Oracle/Error) Merge 동시성 오류.md",
+                "file": "Algorithm&자료구조/자료구조/Queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Oracle/Error) Merge 동시성 오류.md",
+                "file": "Algorithm&자료구조/자료구조/Queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Oracle/Error) Merge 동시성 오류.md"
+                "file": "Algorithm&자료구조/자료구조/Queue.md"
               }
             }
           }
@@ -182,11 +157,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1820b3fdf9ae055",
+  "active": "2f58b91b7b359f3f",
   "lastOpenFiles": [
-    "Database/Oracle",
     "Algorithm&자료구조/자료구조/Multi Stack.md",
+    "AI,Prompt/prompt seed/prompt seed.md",
+    "TailwindCSS/install.md",
+    "Pasted image 20230420104211.png",
     "Database/Oracle/Error) Merge 동시성 오류.md",
+    "Database/Oracle",
     "Database",
     "Algorithm&자료구조/자료구조/Stack.md",
     "Javascript/IndexedDB.md",
@@ -194,7 +172,6 @@
     "Algorithm&자료구조/자료구조",
     "Algorithm&자료구조/Recursion.md",
     "TailwindCSS/pakagejson설정 주의사항.md",
-    "TailwindCSS/install.md",
     "Tools/Obsidian git.md",
     "Tools/Obsidian.md",
     "Algorithm&자료구조/Divide And Conqure.md",
@@ -204,7 +181,6 @@
     "Algorithm&자료구조/Sort/Bubble Sort.md",
     "Algorithm&자료구조/Sort/Merge Sort.md",
     "AI,Prompt/prompt seed/prompt seed ( admin ).md",
-    "AI,Prompt/prompt seed/prompt seed.md",
     "React/ReactBasic/useEffect.md",
     "Tools",
     "Java/SpringBoot + Gradle 폐쇠망 사용.md",
@@ -217,7 +193,6 @@
     "Algorithm&자료구조/Search",
     "Algorithm&자료구조/Sort",
     "Pasted image 20230420105557.png",
-    "Pasted image 20230420104211.png",
     "무제 파일.canvas",
     "Untitled Diagram.svg",
     "Pasted image 20230418150253.png",
@@ -229,7 +204,6 @@
     "Pasted image 20230418142916.png",
     "Server/AWS",
     "AI,Prompt/Prompt Engineering",
-    "AI,Prompt/prompt seed",
-    "Server"
+    "AI,Prompt/prompt seed"
   ]
 }
