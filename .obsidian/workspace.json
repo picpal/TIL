@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "49218df5ef91de0f",
+    "id": "f93dc600f41d236b",
     "type": "split",
     "children": [
       {
-        "id": "9dcfca3be2905237",
+        "id": "8bbaff7a169ccb5c",
         "type": "tabs",
         "children": [
           {
-            "id": "2f58b91b7b359f3f",
+            "id": "88516789b128d7b3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm&자료구조/자료구조/Queue.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "609a4b2377f0256f",
+    "id": "5ace0ec9eb737e39",
     "type": "split",
     "children": [
       {
-        "id": "984b0727a23fcc38",
+        "id": "fe6182efbf2239d7",
         "type": "tabs",
         "children": [
           {
-            "id": "17b856bbf23de021",
+            "id": "e56bd62e42650c15",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "b8a8969dd8cde0e1",
+            "id": "6e719b32e3d81529",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,15 +54,7 @@
             }
           },
           {
-            "id": "986d29f46369747c",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "d374ef323a5d9a86",
+            "id": "77248b78c03d7a6b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 300
   },
   "right": {
-    "id": "d076f55c83974493",
+    "id": "43b82dc4ed8a30e3",
     "type": "split",
     "children": [
       {
-        "id": "fd813751ad4dc338",
+        "id": "eb3c78ff0959db55",
         "type": "tabs",
         "children": [
           {
-            "id": "3c01a161f0bb461c",
+            "id": "e5ba5604fed9877a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm&자료구조/자료구조/Queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,19 +92,18 @@
             }
           },
           {
-            "id": "cd7ad6c89926f028",
+            "id": "6431edd451a8396a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm&자료구조/자료구조/Queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5e5f2f2a5fa9da78",
+            "id": "d898bb4260caba84",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,82 +114,77 @@
             }
           },
           {
-            "id": "c66bf53503e725b9",
+            "id": "46a7694d49bab7fa",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithm&자료구조/자료구조/Queue.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "2f58b91b7b359f3f",
+  "active": "88516789b128d7b3",
   "lastOpenFiles": [
-    "Algorithm&자료구조/자료구조/Multi Stack.md",
-    "AI,Prompt/prompt seed/prompt seed.md",
-    "TailwindCSS/install.md",
-    "Pasted image 20230420104211.png",
-    "Database/Oracle/Error) Merge 동시성 오류.md",
-    "Database/Oracle",
-    "Database",
-    "Algorithm&자료구조/자료구조/Stack.md",
-    "Javascript/IndexedDB.md",
-    "Algorithm&자료구조/자료구조/Queue.md",
-    "Algorithm&자료구조/자료구조",
-    "Algorithm&자료구조/Recursion.md",
-    "TailwindCSS/pakagejson설정 주의사항.md",
-    "Tools/Obsidian git.md",
+    "알고리즘,자료구조 49af8291da234d6dbe835dcc2dda5518.md",
     "Tools/Obsidian.md",
-    "Algorithm&자료구조/Divide And Conqure.md",
-    "Algorithm&자료구조/Search/Binary Search.md",
-    "Algorithm&자료구조/Search/Depth First Search.md",
-    "Algorithm&자료구조/Sort/Heap sort.md",
-    "Algorithm&자료구조/Sort/Bubble Sort.md",
-    "Algorithm&자료구조/Sort/Merge Sort.md",
-    "AI,Prompt/prompt seed/prompt seed ( admin ).md",
-    "React/ReactBasic/useEffect.md",
+    "Tools/Obsidian git.md",
     "Tools",
-    "Java/SpringBoot + Gradle 폐쇠망 사용.md",
-    "Algorithm&자료구조/Robot in a Grid.md",
-    "Java/무제 폴더",
-    "Algorithm&자료구조/Doubly Linked List.md",
-    "Algorithm&자료구조/Singly Linked List.md",
-    "Algorithm&자료구조/Sliding Window.md",
-    "Algorithm&자료구조/Multiple Pointer.md",
-    "Algorithm&자료구조/Search",
-    "Algorithm&자료구조/Sort",
-    "Pasted image 20230420105557.png",
-    "무제 파일.canvas",
-    "Untitled Diagram.svg",
-    "Pasted image 20230418150253.png",
-    "Pasted image 20230418150055.png",
-    "Pasted image 20230418150041.png",
-    "Pasted image 20230418150024.png",
-    "Pasted image 20230418145950.png",
-    "Pasted image 20230418143758.png",
-    "Pasted image 20230418142916.png",
+    "TailwindCSS/pakagejson설정 주의사항.md",
+    "TailwindCSS/install.md",
+    "TailwindCSS",
+    "Server/AWS/VPC.md",
+    "Server/AWS/3 tier architecture.md",
     "Server/AWS",
-    "AI,Prompt/Prompt Engineering",
-    "AI,Prompt/prompt seed"
+    "Server",
+    "React/images/Rendering_001.png",
+    "React/ReactBasic/useRef.md",
+    "React/ReactBasic/useEffect.md",
+    "React/images",
+    "React/Rendering.md",
+    "React/ReactBasic",
+    "React",
+    "Pasted image 20230420105557.png",
+    "Pasted image 20230420104211.png",
+    "Javascript/image/prototype_log_002.png",
+    "Javascript/image/prototype_log_001.png",
+    "Javascript/image/objectLiteral_002.jpg",
+    "Javascript/image/objectLiteral_001.jpg",
+    "Javascript/image/callstack_005.png",
+    "Javascript/image/callstack_003.png",
+    "Javascript/image/callstack_004.png",
+    "Javascript/testCode.js",
+    "Javascript/reduce , reduceRight.md",
+    "Javascript/prototype.md",
+    "Javascript/primitiveType.md",
+    "Javascript/image",
+    "Javascript/fetch vs Axios.md",
+    "Javascript/callstack.md",
+    "Javascript/Xpath Selector.md",
+    "Javascript/Object literal.md",
+    "Javascript/IndexedDB.md",
+    "Javascript/Immutability.md",
+    "Javascript",
+    "Java/base64_encode.md",
+    "Java/SpringBoot + Gradle 폐쇠망 사용.md",
+    "Database/Oracle/Error) Merge 동시성 오류.md",
+    "CSS/명시도.md",
+    "CSS/is , where.md",
+    "Algorithm&자료구조/자료구조/Stack.md",
+    "Algorithm&자료구조/자료구조/Queue.md"
   ]
 }
