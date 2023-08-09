@@ -72,8 +72,25 @@ but 로컬, 서버환경이 달라 지게 되면 코드 실행에서 오류가 �
 
 
 
+# Docker 설치
 
+## Mac
+- 요구사항 충족 시
+	- Docker Desktop 설치
+- 요구사항 미충족 시 
+	- Docker Toolbox 설치
 
+## Window
+- 요구사항 충족 시
+	- Docker Desktop 설치
+- 요구사항 미충족 시 
+	- Docker Toolbox 설치
+
+## Linux
+- 리눅스는 기본적으로 모든 곳에서 사용가능 특정요구 사항이 없음
+- 기본적으로 도커 엔진을 지원, 직접설치 가능
+- Docker Desktop & Docker Toolbox 필요 없음
+- 도커가 사용하는 기술과 컨테이너를 기본적으로 지원
 
 
 
