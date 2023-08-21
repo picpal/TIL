@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ebd544c1e14b44a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server/Docker & Kubernetes.md",
+                "file": "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Server/Docker & Kubernetes.md",
+                "file": "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Server/Docker & Kubernetes.md"
+                "file": "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md"
               }
             }
           }
@@ -144,15 +155,19 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "88516789b128d7b3",
+  "active": "5ebd544c1e14b44a",
   "lastOpenFiles": [
+    "Server/Docker & Kubernetes.md",
+    "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md",
+    "Excalidraw",
     "Pasted image 20230802225924.png",
     "Pasted image 20230802225658.png",
     "Pasted image 20230802225131.png",
-    "Server/Docker & Kubernetes.md",
     "알고리즘,자료구조 49af8291da234d6dbe835dcc2dda5518.md",
     "Tools/Obsidian.md",
     "Tools/Obsidian git.md",
@@ -177,7 +192,6 @@
     "Javascript/image/prototype_log_001.png",
     "Javascript/image/objectLiteral_002.jpg",
     "Javascript/image/objectLiteral_001.jpg",
-    "Javascript/image/callstack_005.png",
     "Javascript/testCode.js",
     "Javascript/reduce , reduceRight.md",
     "Javascript/prototype.md",
@@ -189,7 +203,6 @@
     "Javascript/Object literal.md",
     "Javascript/IndexedDB.md",
     "Javascript/Immutability.md",
-    "Javascript",
     "Java/base64_encode.md",
     "Java/SpringBoot + Gradle 폐쇠망 사용.md",
     "Database/Oracle/Error) Merge 동시성 오류.md",
