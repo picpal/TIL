@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8bbaff7a169ccb5c",
+        "id": "a84ac470c1df65ed",
         "type": "tabs",
         "children": [
           {
-            "id": "88516789b128d7b3",
+            "id": "d78702258a8b63ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5ebd544c1e14b44a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md",
+                "file": "Server/Docker & Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md",
+                "file": "Server/Docker & Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md"
+                "file": "Server/Docker & Kubernetes.md"
               }
             }
           }
@@ -160,10 +149,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5ebd544c1e14b44a",
+  "active": "d78702258a8b63ce",
   "lastOpenFiles": [
+    "Excalidraw/Container Based On An Image.md",
     "Server/Docker & Kubernetes.md",
-    "Excalidraw/Drawing 2023-08-21 21.28.09.excalidraw.md",
     "Excalidraw",
     "Pasted image 20230802225924.png",
     "Pasted image 20230802225658.png",
