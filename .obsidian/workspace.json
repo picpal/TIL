@@ -21,8 +21,19 @@
                 }
               }
             }
+          },
+          {
+            "id": "e40d515a04a6347f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +163,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "62ae1c61344668ae",
+  "active": "e40d515a04a6347f",
   "lastOpenFiles": [
     "Untitled.canvas",
     "2023-09-03.md",
