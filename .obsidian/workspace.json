@@ -11,14 +11,11 @@
             "id": "62ae1c61344668ae",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md"
               }
             }
           },
@@ -158,12 +155,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "62ae1c61344668ae",
   "lastOpenFiles": [
     "Untitled.canvas",
+    "AI,Prompt/Prompt Engineering/Junior Prompting.md",
     "2023-09-03.md",
     "Server/Docker & Kubernetes.md",
     "Excalidraw/Container Based On An Image.md",
@@ -207,7 +207,6 @@
     "Javascript/IndexedDB.md",
     "Javascript/Immutability.md",
     "Java/base64_encode.md",
-    "Java/SpringBoot + Gradle 폐쇠망 사용.md",
-    "Database/Oracle/Error) Merge 동시성 오류.md"
+    "Java/SpringBoot + Gradle 폐쇠망 사용.md"
   ]
 }
