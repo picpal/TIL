@@ -21,8 +21,19 @@
                 }
               }
             }
+          },
+          {
+            "id": "7595410bbb76656c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,6 +142,18 @@
                 "file": "Untitled.canvas"
               }
             }
+          },
+          {
+            "id": "3dd3e2988a833f3f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
           }
         ]
       }
@@ -151,7 +174,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "62ae1c61344668ae",
+  "active": "7595410bbb76656c",
   "lastOpenFiles": [
     "Untitled.canvas",
     "2023-09-03.md",
