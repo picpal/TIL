@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md",
+                "file": "DevOps/CI,CD with Jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md",
+                "file": "DevOps/CI,CD with Jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md",
+                "file": "DevOps/CI,CD with Jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md"
+                "file": "DevOps/CI,CD with Jenkins.md"
               }
             }
           },
@@ -162,8 +162,10 @@
   },
   "active": "62ae1c61344668ae",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "AI,Prompt/Prompt Engineering/Junior Prompting.md",
+    "DevOps/CI,CD with Jenkins.md",
+    "DevOps",
+    "Untitled.canvas",
     "2023-09-03.md",
     "Server/Docker & Kubernetes.md",
     "Excalidraw/Container Based On An Image.md",
@@ -199,7 +201,6 @@
     "Javascript/reduce , reduceRight.md",
     "Javascript/prototype.md",
     "Javascript/primitiveType.md",
-    "Javascript/image",
     "Javascript/fetch vs Axios.md",
     "Javascript/callstack.md",
     "Javascript/Xpath Selector.md",
