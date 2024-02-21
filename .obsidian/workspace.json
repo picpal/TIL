@@ -11,14 +11,11 @@
             "id": "62ae1c61344668ae",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -99,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +136,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "AI,Prompt/Prompt Engineering/Junior Prompting.md"
+              }
+            }
+          },
+          {
+            "id": "154899d3db714449",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -177,6 +186,7 @@
   "active": "7595410bbb76656c",
   "lastOpenFiles": [
     "Untitled.canvas",
+    "AI,Prompt/Prompt Engineering/Junior Prompting.md",
     "2023-09-03.md",
     "Server/Docker & Kubernetes.md",
     "Excalidraw/Container Based On An Image.md",
@@ -220,7 +230,6 @@
     "Javascript/IndexedDB.md",
     "Javascript/Immutability.md",
     "Java/base64_encode.md",
-    "Java/SpringBoot + Gradle 폐쇠망 사용.md",
-    "Database/Oracle/Error) Merge 동시성 오류.md"
+    "Java/SpringBoot + Gradle 폐쇠망 사용.md"
   ]
 }
