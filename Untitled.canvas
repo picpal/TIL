@@ -1,6 +1,4 @@
 {
-	"nodes":[
-		{"id":"a902082790e64f46","x":-420,"y":-200,"width":420,"height":240,"type":"text","text":"# 백오피스\n- 회원 가입\n\t- id,pw\n\t- service \n\t- sms,lms,mms,talk,naverworks\n\t- email\n- API key 발급\n\t- 처음 1회만 노출 , 이후에는 볼 수 없음 (like gitlab)"}
-	],
+	"nodes":[],
 	"edges":[]
 }
