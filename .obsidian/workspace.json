@@ -15,25 +15,14 @@
               "state": {
                 "file": "Untitled.canvas",
                 "viewState": {
-                  "x": 0,
+                  "x": -85.77949218750003,
                   "y": 0,
                   "zoom": 0
                 }
               }
             }
-          },
-          {
-            "id": "4130d39e17f334b6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +163,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4130d39e17f334b6",
+  "active": "62ae1c61344668ae",
   "lastOpenFiles": [
     "AI,Prompt/Prompt Engineering/Junior Prompting.md",
     "Untitled.canvas",
