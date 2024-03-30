@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"82435a224a26a88e","x":-700,"y":-440,"width":240,"height":250,"type":"text","text":"메시지 서비스 관리\n\n서비스 트래픽 모니터링\n\n장애 알림\n\n"},
-		{"id":"fb32c0bd8fbb6e1b","x":-420,"y":-440,"width":780,"height":360,"type":"text","text":""}
-	],
-	"edges":[]
-}
