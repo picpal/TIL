@@ -4,22 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "202a24aa927123cc",
+        "id": "c16829001bb72a92",
         "type": "tabs",
         "children": [
           {
-            "id": "62ae1c61344668ae",
+            "id": "3641a57d995c86a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "DevOps/CI,CD with Jenkins.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled 2.canvas",
+                "viewState": {
+                  "x": -106,
+                  "y": -107,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "b06bdc77b7ecc40b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled 3.canvas",
+                "viewState": {
+                  "x": 350,
+                  "y": 30,
+                  "zoom": -0.15810605784824228
+                }
+              }
+            }
+          },
+          {
+            "id": "c885835badd5b1ae",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
+            "id": "52c29250beab3fc0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -32,16 +71,6 @@
         "id": "fe6182efbf2239d7",
         "type": "tabs",
         "children": [
-          {
-            "id": "e56bd62e42650c15",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
           {
             "id": "6e719b32e3d81529",
             "type": "leaf",
@@ -64,12 +93,23 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "fb127bfe438ee6bc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 340.5
   },
   "right": {
     "id": "43b82dc4ed8a30e3",
@@ -85,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/CI,CD with Jenkins.md",
+                "file": "Untitled 3.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/CI,CD with Jenkins.md",
+                "file": "Untitled 3.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/CI,CD with Jenkins.md"
+                "file": "Untitled 3.canvas"
               }
             }
           },
@@ -140,13 +180,21 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "9ec96d21f813a6a3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,12 +208,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "62ae1c61344668ae",
+  "active": "b06bdc77b7ecc40b",
   "lastOpenFiles": [
-    "AI,Prompt/Prompt Engineering/Junior Prompting.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled 3.canvas",
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2024-09-27 12.51.49.excalidraw.md",
+    "Javascript/Xpath Selector.md",
+    "Javascript/IndexedDB.md",
+    "Javascript/callstack.md",
+    "TailwindCSS/install.md",
+    "TailwindCSS/pakagejson설정 주의사항.md",
+    "Untitled Diagram.svg",
     "DevOps/CI,CD with Jenkins.md",
-    "DevOps",
     "Untitled.canvas",
+    "Excalidraw/Drawing 2024-03-13 10.02.03.excalidraw.md",
+    "알고리즘,자료구조 49af8291da234d6dbe835dcc2dda5518.md",
+    "AI,Prompt/Prompt Engineering/Junior Prompting.md",
+    "DevOps",
     "2023-09-03.md",
     "Server/Docker & Kubernetes.md",
     "Excalidraw/Container Based On An Image.md",
@@ -173,12 +234,9 @@
     "Pasted image 20230802225924.png",
     "Pasted image 20230802225658.png",
     "Pasted image 20230802225131.png",
-    "알고리즘,자료구조 49af8291da234d6dbe835dcc2dda5518.md",
     "Tools/Obsidian.md",
     "Tools/Obsidian git.md",
     "Tools",
-    "TailwindCSS/pakagejson설정 주의사항.md",
-    "TailwindCSS/install.md",
     "TailwindCSS",
     "Server/AWS/VPC.md",
     "Server/AWS/3 tier architecture.md",
@@ -196,18 +254,10 @@
     "Javascript/image/prototype_log_002.png",
     "Javascript/image/prototype_log_001.png",
     "Javascript/image/objectLiteral_002.jpg",
-    "Javascript/image/objectLiteral_001.jpg",
     "Javascript/testCode.js",
     "Javascript/reduce , reduceRight.md",
     "Javascript/prototype.md",
     "Javascript/primitiveType.md",
-    "Javascript/fetch vs Axios.md",
-    "Javascript/callstack.md",
-    "Javascript/Xpath Selector.md",
-    "Javascript/Object literal.md",
-    "Javascript/IndexedDB.md",
-    "Javascript/Immutability.md",
-    "Java/base64_encode.md",
-    "Java/SpringBoot + Gradle 폐쇠망 사용.md"
+    "Javascript/fetch vs Axios.md"
   ]
 }
