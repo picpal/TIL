@@ -4,56 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "c16829001bb72a92",
+        "id": "a61b6724b35255d1",
         "type": "tabs",
         "children": [
           {
-            "id": "3641a57d995c86a6",
+            "id": "97af45f2a01f3f4f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "fb127bfe438ee6bc",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Untitled 2.canvas",
+                "file": "Untitled 4.canvas",
                 "viewState": {
-                  "x": -106,
-                  "y": -107,
+                  "x": 0,
+                  "y": 0,
                   "zoom": 0
                 }
-              }
-            }
-          },
-          {
-            "id": "b06bdc77b7ecc40b",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled 3.canvas",
-                "viewState": {
-                  "x": 102.28766086298253,
-                  "y": 57.92680945666643,
-                  "zoom": -0.15810605784824228
-                }
-              }
-            }
-          },
-          {
-            "id": "c885835badd5b1ae",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
-            "id": "52c29250beab3fc0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
               }
             }
           }
@@ -93,19 +66,9 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "fb127bfe438ee6bc",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 3.canvas",
+                "file": "Untitled 4.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 3.canvas",
+                "file": "Untitled 4.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 3.canvas"
+                "file": "Untitled 4.canvas"
               }
             }
           },
@@ -208,11 +171,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b06bdc77b7ecc40b",
+  "active": "fb127bfe438ee6bc",
   "lastOpenFiles": [
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
+    "Untitled 4.canvas",
+    "Untitled.md",
     "Untitled 3.canvas",
+    "Untitled Diagram 1.svg",
+    "Untitled 1.canvas",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2024-09-27 12.51.49.excalidraw.md",
     "Javascript/Xpath Selector.md",
@@ -253,11 +219,9 @@
     "Pasted image 20230420104211.png",
     "Javascript/image/prototype_log_002.png",
     "Javascript/image/prototype_log_001.png",
-    "Javascript/image/objectLiteral_002.jpg",
     "Javascript/testCode.js",
     "Javascript/reduce , reduceRight.md",
     "Javascript/prototype.md",
-    "Javascript/primitiveType.md",
-    "Javascript/fetch vs Axios.md"
+    "Javascript/primitiveType.md"
   ]
 }
