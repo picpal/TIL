@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"38af0a433f99a921","x":-480,"y":-280,"width":250,"height":60,"type":"text","text":"카드 목록 조회"},
-		{"id":"a15cd23aa2b46def","type":"text","text":"인증요청 (OTC v1)","x":-160,"y":-120,"width":250,"height":60}
+		{"id":"38af0a433f99a921","x":-880,"y":-300,"width":250,"height":60,"type":"text","text":"카드 목록 조회"},
+		{"id":"a15cd23aa2b46def","type":"text","text":"인증요청 (OTC v1)","x":-460,"y":-300,"width":250,"height":60}
 	],
 	"edges":[]
 }
