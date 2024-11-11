@@ -3,10 +3,14 @@ package com.picpal.sandbox.effective_java.item42;
 import java.util.*;
 
 /**
- * 익명 클래스 대비람다 사용 장점
+ * 익명 클래스 대비 람다 사용 장점
  * 1) 간견함
  * 2) 가독성
  * 3) 함수형 프로그래밍 지원
+ *
+ * 람다 대비 메서드 참조 사용 장점
+ * 1) 더 직관적
+ * 2) 간단한 호출 방식
  *
  * But, 무조건 람다가 아니라 익명 클래스가 필요한 경우 익명 클래스 사용
  *
@@ -36,4 +40,19 @@ public class ComparatorExamples {
     public static void sortUsingMethodReference(List<String> list) {
         list.sort(Comparator.comparingInt(String::length));
     }
+
+
+    // 람다 표현식 사용한 배열 출력
+    public static void printArrayLambda(){
+        List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
+        names.forEach(name -> System.out.println(name));
+    }
+
+    // 메서드 참조를 사용한 배열 출력
+    public static void printArrayMethodReference(){
+        List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
+        names.forEach(System.out::println);
+    }
+
+
 }
