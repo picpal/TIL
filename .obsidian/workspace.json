@@ -4,38 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a61b6724b35255d1",
+        "id": "b7cf173911560b60",
         "type": "tabs",
         "children": [
           {
-            "id": "97af45f2a01f3f4f",
+            "id": "9a6b260ff52ee2c1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "fb127bfe438ee6bc",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled 4.canvas",
-                "viewState": {
-                  "x": -323,
-                  "y": -150,
-                  "zoom": 0
-                }
+                "file": "Java/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled 4"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 4.canvas",
+                "file": "Java/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled 4"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -127,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 4.canvas",
+                "file": "Java/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled 4"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -154,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 4.canvas"
+                "file": "Java/Untitled.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled 4"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -203,10 +189,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb127bfe438ee6bc",
+  "active": "154a16a977535c94",
   "lastOpenFiles": [
-    "Untitled 2.canvas",
+    "Java/Effective Java 3rd",
+    "Java/Untitled.md",
     "Untitled 4.canvas",
+    "Untitled 2.canvas",
     "Untitled.md",
     "Untitled 3.canvas",
     "Untitled Diagram 1.svg",
@@ -253,7 +241,6 @@
     "Javascript/image/prototype_log_001.png",
     "Javascript/testCode.js",
     "Javascript/reduce , reduceRight.md",
-    "Javascript/prototype.md",
-    "Javascript/primitiveType.md"
+    "Javascript/prototype.md"
   ]
 }
