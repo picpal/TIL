@@ -27,11 +27,11 @@ console.log(student.hasOwnProperty("name")); // true
 console.dir(student);
 ```
 
-ECMAScript spec에서는 자바스크립트의 모든 객체는 [[Prototype]]이라는 인터널 슬롯(internal slot)를 가진다.
+ECMAScript spec에서는 자바스크립트의 모든 객체는 [[prototype]]이라는 인터널 슬롯(internal slot)를 가진다.
 
-[[Prototype]]의 값은 null 또는 객체이며 상속을 구현하는데 사용된다.
+[[prototype]]의 값은 null 또는 객체이며 상속을 구현하는데 사용된다.
 
-[[Prototype]] 객체의 데이터 프로퍼티는 get 액세스를 위해 상속되어 자식 객체의 프로퍼티처럼 사용할 수 있다. 하지만 set 액세스는 허용되지 않는다. 라고 되어있다.
+[[prototype]] 객체의 데이터 프로퍼티는 get 액세스를 위해 상속되어 자식 객체의 프로퍼티처럼 사용할 수 있다. 하지만 set 액세스는 허용되지 않는다. 라고 되어있다.
 
 ```js
 var Person = function(){}
@@ -47,7 +47,7 @@ Person {}[[Prototype]] ...
 
 <br />
 
-[[Prototype]]의 값은 Prototype(프로토타입) 객체이며 **proto** accessor property로 접근할 수 있다. **proto** 프로퍼티에 접근하면 내부적으로 Object.getPrototypeOf가 호출되어 프로토타입 객체를 반환한다.
+[[prototype]]의 값은 Prototype(프로토타입) 객체이며 **proto** accessor property로 접근할 수 있다. **proto** 프로퍼티에 접근하면 내부적으로 Object.getPrototypeOf가 호출되어 프로토타입 객체를 반환한다.
 student 객체는 **proto** 프로퍼티로 자신의 부모 객체(프로토타입 객체)인 Object.prototype을 가리키고 있다.
 
 ```js
