@@ -11,10 +11,14 @@
             "id": "7e9c57758409ea0f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "4. Archive/blank.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "blank"
             }
           }
         ]
@@ -189,6 +193,9 @@
   },
   "active": "154a16a977535c94",
   "lastOpenFiles": [
+    "2. Area/blank.md",
+    "4. Archive/blank.md",
+    "1. Project/blank.md",
     "3. Resource/Frontend",
     "3. Resource/frontend/CSS/명시도.md",
     "3. Resource/server 1",
@@ -212,7 +219,6 @@
     "attachment",
     "3. Resource/Ai/Local LLM/Ollama & Docker.md",
     "3. Resource/Ai/Local LLM",
-    "Java/Effective Java 3rd",
     "3. Resource/Backend/Java/Untitled.md",
     "Untitled 2.canvas",
     "Untitled 3.canvas",
@@ -234,9 +240,7 @@
     "attachment/Pasted image 20230802225658.png",
     "attachment/Pasted image 20230802225131.png",
     "3. Resource/Backend/Server/AWS/VPC.md",
-    "3. Resource/Backend/Server/AWS/3 tier architecture.md",
     "3. Resource/Frontend/React/images/Rendering_001.png",
-    "3. Resource/Frontend/React/ReactBasic/useRef.md",
     "attachment/Pasted image 20230420105557.png",
     "3. Resource/Frontend/Javascript/image/prototype_log_002.png",
     "3. Resource/Frontend/Javascript/image/prototype_log_001.png"
