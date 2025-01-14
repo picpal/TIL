@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Proxy Pattern"
             }
+          },
+          {
+            "id": "d9d1031161a038b7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,11 +200,10 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48516f394e4c33f4",
+  "active": "d9d1031161a038b7",
   "lastOpenFiles": [
     "README.md",
     "3. Resource/DesignPattern/Proxy Pattern.md",
