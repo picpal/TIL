@@ -25,14 +25,17 @@
             "id": "d9d1031161a038b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "3. Resource/DesignPattern/Book.md",
-                "mode": "source",
-                "source": false
+                "file": "3. Resource/DesignPattern/무제 파일.canvas",
+                "viewState": {
+                  "x": 543.8299121700419,
+                  "y": 605.8025484602998,
+                  "zoom": -0.6666666666666667
+                }
               },
-              "icon": "lucide-file",
-              "title": "Book"
+              "icon": "lucide-layout-dashboard",
+              "title": "무제 파일"
             }
           }
         ],
@@ -209,6 +212,7 @@
   "active": "d9d1031161a038b7",
   "lastOpenFiles": [
     "3. Resource/DesignPattern/Book.md",
+    "3. Resource/DesignPattern/무제 파일.canvas",
     "README.md",
     "3. Resource/DesignPattern/Proxy Pattern.md",
     "3. Resource/DesignPattern",
@@ -251,7 +255,6 @@
     "Untitled.canvas",
     "Excalidraw/Drawing 2024-03-13 10.02.03.excalidraw.md",
     "3. Resource/Ai/Prompt Engineering/Junior Prompting.md",
-    "3. Resource/Backend/Server/Docker & Kubernetes.md",
     "attachment/Pasted image 20230802225924.png",
     "attachment/Pasted image 20230802225658.png",
     "attachment/Pasted image 20230802225131.png",

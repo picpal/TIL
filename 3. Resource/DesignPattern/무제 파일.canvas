@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"5ea266aae709595a","type":"text","text":"# FlyBehavior","x":-240,"y":-120,"width":250,"height":240},
+		{"id":"ebc20bb394b6d338","x":-80,"y":-560,"width":250,"height":240,"type":"text","text":"# Duck"},
+		{"id":"b55eecf463283a25","type":"text","text":"# FlyNoway","x":-575,"y":360,"width":250,"height":240},
+		{"id":"96f6ce6493a54a98","type":"text","text":"# FlyWithWings","x":-275,"y":360,"width":285,"height":240},
+		{"id":"f72247507a2c2128","type":"text","text":"# FlyRocketPowered","x":85,"y":360,"width":300,"height":240},
+		{"id":"9d94f3a6843f10d2","type":"text","text":"# QuackBehavior","x":740,"y":-120,"width":300,"height":240},
+		{"id":"b198bfa9e2bbd6bd","type":"text","text":"# Quack","x":540,"y":360,"width":300,"height":240},
+		{"id":"796204ec430375bd","type":"text","text":"# Aqueak","x":920,"y":360,"width":300,"height":240}
+	],
+	"edges":[
+		{"id":"a90d1a79fa7bad35","fromNode":"b55eecf463283a25","fromSide":"top","toNode":"5ea266aae709595a","toSide":"bottom"},
+		{"id":"cfd76cd906d18930","fromNode":"96f6ce6493a54a98","fromSide":"top","toNode":"5ea266aae709595a","toSide":"bottom"},
+		{"id":"ec8954c74d3f821e","fromNode":"f72247507a2c2128","fromSide":"top","toNode":"5ea266aae709595a","toSide":"bottom"}
+	]
+}
