@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"5ea266aae709595a","type":"text","text":"# FlyBehavior","x":-185,"y":-1040,"width":250,"height":240},
-		{"id":"9d94f3a6843f10d2","type":"text","text":"# QuackBehavior","x":-185,"y":40,"width":300,"height":240},
+		{"id":"5ea266aae709595a","type":"text","text":"# FlyBehavior","x":-185,"y":-1040,"width":250,"height":240,"color":"1"},
+		{"id":"9d94f3a6843f10d2","type":"text","text":"# QuackBehavior","x":-185,"y":40,"width":300,"height":240,"color":"6"},
 		{"id":"43124d2dc8eabf89","type":"text","text":"# 캡슐화 (행동-날다)","x":-185,"y":-1200,"width":325,"height":80},
 		{"id":"e2173e658e38162b","type":"text","text":"# 캡슐화 (행동-꽥꽥)","x":-185,"y":-120,"width":325,"height":80},
 		{"id":"518680674c71b877","type":"text","text":"# MuteQuack","x":-185,"y":480,"width":300,"height":240},
@@ -10,9 +10,9 @@
 		{"id":"f72247507a2c2128","type":"text","text":"# FlyRocketPowered","x":155,"y":-600,"width":300,"height":240},
 		{"id":"b55eecf463283a25","type":"text","text":"# FlyNoway","x":-505,"y":-600,"width":250,"height":240},
 		{"id":"96f6ce6493a54a98","type":"text","text":"# FlyWithWings","x":-205,"y":-600,"width":285,"height":240},
-		{"id":"ebc20bb394b6d338","type":"text","text":"# Duck","x":-1600,"y":-560,"width":250,"height":240},
+		{"id":"ebc20bb394b6d338","type":"text","text":"# Duck","x":-1600,"y":-560,"width":250,"height":240,"color":"3"},
 		{"id":"8a5e78c6423d1987","type":"text","text":"# MallardDuck","x":-1600,"y":-200,"width":250,"height":240},
-		{"id":"bc725914ff549750","x":-1600,"y":-680,"width":250,"height":80,"type":"text","text":"# 클라이언트"}
+		{"id":"bc725914ff549750","type":"text","text":"# 클라이언트","x":-1600,"y":-680,"width":250,"height":80}
 	],
 	"edges":[
 		{"id":"a90d1a79fa7bad35","fromNode":"b55eecf463283a25","fromSide":"top","toNode":"5ea266aae709595a","toSide":"bottom"},

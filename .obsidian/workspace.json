@@ -25,14 +25,17 @@
             "id": "d9d1031161a038b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "3. Resource/DesignPattern/Book.md",
-                "mode": "source",
-                "source": false
+                "file": "3. Resource/DesignPattern/SimUDuck.canvas",
+                "viewState": {
+                  "x": -567.5,
+                  "y": -12.36045258620689,
+                  "zoom": -1.2914485949291705
+                }
               },
-              "icon": "lucide-file",
-              "title": "Book"
+              "icon": "lucide-layout-dashboard",
+              "title": "SimUDuck"
             }
           }
         ],
@@ -208,9 +211,9 @@
   },
   "active": "d9d1031161a038b7",
   "lastOpenFiles": [
-    "3. Resource/DesignPattern/무제 파일.canvas",
     "3. Resource/DesignPattern/Proxy Pattern.md",
     "3. Resource/DesignPattern/Book.md",
+    "3. Resource/DesignPattern/SimUDuck.canvas",
     "README.md",
     "3. Resource/DesignPattern",
     "4. Archive/blank.md",
