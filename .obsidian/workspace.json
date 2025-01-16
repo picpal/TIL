@@ -25,17 +25,14 @@
             "id": "d9d1031161a038b7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "3. Resource/DesignPattern/무제 파일.canvas",
-                "viewState": {
-                  "x": 543.8299121700419,
-                  "y": 605.8025484602998,
-                  "zoom": -0.6666666666666667
-                }
+                "file": "3. Resource/DesignPattern/Book.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "무제 파일"
+              "icon": "lucide-file",
+              "title": "Book"
             }
           }
         ],
@@ -211,10 +208,10 @@
   },
   "active": "d9d1031161a038b7",
   "lastOpenFiles": [
-    "3. Resource/DesignPattern/Book.md",
     "3. Resource/DesignPattern/무제 파일.canvas",
-    "README.md",
     "3. Resource/DesignPattern/Proxy Pattern.md",
+    "3. Resource/DesignPattern/Book.md",
+    "README.md",
     "3. Resource/DesignPattern",
     "4. Archive/blank.md",
     "2. Area/blank.md",
