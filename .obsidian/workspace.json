@@ -11,17 +11,14 @@
             "id": "d9d1031161a038b7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "3. Resource/DesignPattern/SimUDuck.canvas",
-                "viewState": {
-                  "x": -667.857219827586,
-                  "y": 171.21982758620675,
-                  "zoom": -1.2914485949291705
-                }
+                "file": "3. Resource/DesignPattern/Book.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "SimUDuck"
+              "icon": "lucide-file",
+              "title": "Book"
             }
           }
         ]
@@ -196,8 +193,8 @@
   },
   "active": "d9d1031161a038b7",
   "lastOpenFiles": [
-    "무제 파일.canvas",
     "3. Resource/DesignPattern/SimUDuck.canvas",
+    "무제 파일.canvas",
     "3. Resource/DesignPattern/Book.md",
     "3. Resource/DesignPattern/Proxy Pattern.md",
     "Excalidraw/Drawing 2025-01-16 15.26.41.excalidraw.md",
