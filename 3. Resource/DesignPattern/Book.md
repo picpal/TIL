@@ -27,9 +27,9 @@
 	- A가 B를 구현한다 (inplements : 구현 , implements)
 
 
+## IS-A
 
-
-
+- 
 
 
 
