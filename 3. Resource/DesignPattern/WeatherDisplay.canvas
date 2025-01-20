@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"f3e238d01500ac46","type":"text","text":"## [Interface]\n# Observer\n- update()","x":560,"y":-335,"width":260,"height":150},
+		{"id":"c60db53548f5fa78","type":"text","text":"## [Interface]\n\n# DisplayElement\n- display()","x":1080,"y":-335,"width":280,"height":150},
+		{"id":"b847357f3c7a6aba","type":"text","text":"## [Interface]\n# Subject\n\n- registerObserver()\n- removeObserver()\n- notifyObservers()","x":-520,"y":-380,"width":375,"height":240},
+		{"id":"5615096ef15d72e3","type":"text","text":"# WeatherData\n\n- registerObserver()\n- removeObserver()\n- notifyObservers()\n<br />\n- getTemperature()\n- getHumidity()\n- getPressure()\n- measurementsChnaged()","x":-520,"y":300,"width":375,"height":320},
+		{"id":"8fb7e5f1a37936e9","type":"text","text":"# StatisTicsDisplay\n- update()\n- display()\n\n{// 평균, 최저, 최고값 표시}","x":400,"y":420,"width":340,"height":200},
+		{"id":"fbb4fc8575d94784","type":"text","text":"# ForecastDisplay\n\n- update()\n- display()\n\n{// 기상 예보}","x":820,"y":415,"width":320,"height":205},
+		{"id":"24f82feb6a341372","type":"text","text":"# ThirdPartyDisplay\n\n- update()\n- display()\n  \n{ // 측정 값에 기반한 내용 표시}","x":1220,"y":410,"width":320,"height":210},
+		{"id":"51325a7218d419db","type":"text","text":"# CurrentConditionsDisplay\n- update()\n- display()\n\n{ // 측정값을 화면에 표시 }\n","x":0,"y":80,"width":440,"height":200}
+	],
+	"edges":[
+		{"id":"c458e8754b84f43f","fromNode":"b847357f3c7a6aba","fromSide":"right","toNode":"f3e238d01500ac46","toSide":"left","label":"옵저버"},
+		{"id":"38c6b49f4b215326","fromNode":"51325a7218d419db","fromSide":"top","toNode":"f3e238d01500ac46","toSide":"bottom"},
+		{"id":"314b08cce5fea7e7","fromNode":"51325a7218d419db","fromSide":"top","toNode":"c60db53548f5fa78","toSide":"bottom"},
+		{"id":"3f31dd8819df4011","fromNode":"24f82feb6a341372","fromSide":"top","toNode":"f3e238d01500ac46","toSide":"bottom"},
+		{"id":"f071a76e53b663d2","fromNode":"24f82feb6a341372","fromSide":"top","toNode":"c60db53548f5fa78","toSide":"bottom"},
+		{"id":"fc48aa024df88ddd","fromNode":"8fb7e5f1a37936e9","fromSide":"top","toNode":"f3e238d01500ac46","toSide":"bottom"},
+		{"id":"e9545c3d158e4a98","fromNode":"8fb7e5f1a37936e9","fromSide":"top","toNode":"c60db53548f5fa78","toSide":"bottom"},
+		{"id":"1507b99c9bfa8a6a","fromNode":"fbb4fc8575d94784","fromSide":"top","toNode":"f3e238d01500ac46","toSide":"bottom"},
+		{"id":"aee9521b93827838","fromNode":"fbb4fc8575d94784","fromSide":"top","toNode":"c60db53548f5fa78","toSide":"bottom"},
+		{"id":"746bf71992198c23","fromNode":"24f82feb6a341372","fromSide":"top","toNode":"c60db53548f5fa78","toSide":"bottom"},
+		{"id":"4647bd652234a17d","fromNode":"24f82feb6a341372","fromSide":"top","toNode":"c60db53548f5fa78","toSide":"bottom"},
+		{"id":"06fff809e041324e","fromNode":"5615096ef15d72e3","fromSide":"top","toNode":"b847357f3c7a6aba","toSide":"bottom"},
+		{"id":"8b4cf051c05d9bc6","fromNode":"51325a7218d419db","fromSide":"left","toNode":"5615096ef15d72e3","toSide":"right"}
+	]
+}
