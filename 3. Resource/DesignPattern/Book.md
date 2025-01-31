@@ -63,7 +63,12 @@
 
 # 🌈 옵저버 패턴
  > 객체들에게 연락 돌리기
- 
+
+## Push vs Pull
+### push : subject -> observer
+- 변경 사항 생기면 모든 옵저버 들에게 알림
+- 새로운 데이터값이 추가되는 경우 대부분의 옵저버에서 수정이 필요
+### pull : subject <- observer
  
 
 

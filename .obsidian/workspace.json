@@ -11,17 +11,14 @@
             "id": "d9d1031161a038b7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "3. Resource/DesignPattern/WeatherDisplay.canvas",
-                "viewState": {
-                  "x": 613.0897094046927,
-                  "y": 238.77638527244517,
-                  "zoom": -1
-                }
+                "file": "3. Resource/DesignPattern/Book.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WeatherDisplay"
+              "icon": "lucide-file",
+              "title": "Book"
             }
           }
         ]
@@ -81,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5,
-    "collapsed": true
+    "width": 308.5
   },
   "right": {
     "id": "43b82dc4ed8a30e3",
@@ -197,8 +193,8 @@
   },
   "active": "d9d1031161a038b7",
   "lastOpenFiles": [
-    "3. Resource/DesignPattern/Book.md",
     "3. Resource/DesignPattern/WeatherDisplay.canvas",
+    "3. Resource/DesignPattern/Book.md",
     "3. Resource/DesignPattern/Proxy Pattern.md",
     "3. Resource/DesignPattern/SimUDuck.canvas",
     "무제 파일.canvas",
