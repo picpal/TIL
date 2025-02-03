@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "e5177461-2cd5-4921-acb4-106492d9aa5a",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "kiaRentBillpay",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"reqHeaderInfo\": {\"interfaceID\": \"IF-KIA-006\",\"interfaceType\": \"100\"},\"reqStoreInfo\": {\"requestDate\": \"20241221160319\",\"mid\": \"kiarent01m\",\"encryptData\": \"NmMwYzIwMzI4NGJmMzQ3YTdhYzU5MzZjYzc5M2UyNGIxZDY1ZjI2NzM5ZDE4YjBiM2E5MzczMzQ4MTA2MWI5ZQ==\",\"restType\": \"billkeyReq\"},\"reqPaymentInfo\": {\"payCnt\": 3,\"payList\": [{\"amt\": \"611000\",\"mid\": \"kiarent01m\",\"goodsName\": \"기아렌트카빌키테스트1\",\"quota\": \"00\",\"pointCl\": \"0\",\"cardInterest\": \"0\",\"moid\": \"kiarent01m_20241221160319_1\",\"rotationNo\": \"01\",\"orderNo\": \"01\",\"mallUserID\": \"R6FyJLXIrzq+dRpugMCSRA==\",\"billKey\": \"halkXAkjEcDLDbZDCBjlSeT3kLs3YoADOC5rO49ZLFs=\",\"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\"buyerEmail\":\"\",\"merchantDt\": \"테스트용1\"},{\"amt\": \"563000\",\"mid\": \"kiarent01m\",\"goodsName\": \"기아렌트카빌키테스트2\",\"quota\": \"00\",\"pointCl\": \"0\",\"cardInterest\": \"0\",\"moid\": \"kiarent01m_20241221160319_2\",\"rotationNo\": \"03\",\"orderNo\": \"01\",\"mallUserID\": \"cZv19LGpc9iNAGRzb2mqAw==\",\"billKey\": \"rUnlfKexL22lpgmcsNTjWbR3SDeaO8xnHtyMVaSkf3Q=\",\"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\"buyerEmail\": \"\",\"merchantDt\": \"테스트용2\"},{\"amt\": \"545000\",\"mid\": \"kiarent01m\",\"goodsName\": \"기아렌트카빌키테스트3\",\"quota\": \"00\",\"pointCl\": \"0\",\"cardInterest\": \"0\",\"moid\": \"kiarent01m_20241221160319_3\",\"rotationNo\": \"05\",\"orderNo\": \"01\",\"mallUserID\": \"cZv19LGpc9iNAGRzb2mqAw==\",\"billKey\": \"2dae2L3rULTxplQG7IwNGM3K5Rr02wXJySsfvEHiyjQ=\",\"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\"buyerEmail\": \"\",\"merchantDt\": \"테스트용3\"}]}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://devpg.bluewalnut.co.kr/kiarent/pay/request/billkeyReq",
+					"protocol": "https",
+					"host": [
+						"devpg",
+						"bluewalnut",
+						"co",
+						"kr"
+					],
+					"path": [
+						"kiarent",
+						"pay",
+						"request",
+						"billkeyReq"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reqHashdata",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{EdiDate : \"20241221160319\", mid : \"kiarent01m\", Amt : 611000}"
+				},
+				"url": {
+					"raw": "https://devpg.bluewalnut.co.kr/dlp/makeHashData.jsp",
+					"protocol": "https",
+					"host": [
+						"devpg",
+						"bluewalnut",
+						"co",
+						"kr"
+					],
+					"path": [
+						"dlp",
+						"makeHashData.jsp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kiaRentBillpay Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"reqHeaderInfo\": {\"interfaceID\": \"IF-KIA-006\",\"interfaceType\": \"100\"},\"reqStoreInfo\": {\"requestDate\": \"20241221160319\",\"mid\": \"kiarent01m\",\"encryptData\": \"NmMwYzIwMzI4NGJmMzQ3YTdhYzU5MzZjYzc5M2UyNGIxZDY1ZjI2NzM5ZDE4YjBiM2E5MzczMzQ4MTA2MWI5ZQ==\",\"restType\": \"billkeyReq\"},\"reqPaymentInfo\": {\"payCnt\": 3,\"payList\": [{\"amt\": \"611000\",\"mid\": \"kiarent01m\",\"goodsName\": \"기아렌트카빌키테스트1\",\"quota\": \"00\",\"pointCl\": \"0\",\"cardInterest\": \"0\",\"moid\": \"kiarent01m_202412212126_36\",\"rotationNo\": \"01\",\"orderNo\": \"01\",\"mallUserID\": \"R6FyJLXIrzq+dRpugMCSRA==\",\"billKey\": \"halkXAkjEcDLDbZDCBjlSeT3kLs3YoADOC5rO49ZLFs=\",\"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\"buyerEmail\":\"\",\"merchantDt\": \"테스트용1\"},{\"amt\": \"563000\",\"mid\": \"kiarent01m\",\"goodsName\": \"기아렌트카빌키테스트2\",\"quota\": \"00\",\"pointCl\": \"0\",\"cardInterest\": \"0\",\"moid\": \"kiarent01m_202412212126_37\",\"rotationNo\": \"03\",\"orderNo\": \"01\",\"mallUserID\": \"cZv19LGpc9iNAGRzb2mqAw==\",\"billKey\": \"rUnlfKexL22lpgmcsNTjWbR3SDeaO8xnHtyMVaSkf3Q=\",\"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\"buyerEmail\": \"\",\"merchantDt\": \"테스트용2\"},{\"amt\": \"545000\",\"mid\": \"kiarent01m\",\"goodsName\": \"기아렌트카빌키테스트3\",\"quota\": \"00\",\"pointCl\": \"0\",\"cardInterest\": \"0\",\"moid\": \"kiarent01m_202412212126_38\",\"rotationNo\": \"05\",\"orderNo\": \"01\",\"mallUserID\": \"2qjhuMuGHfaxOThdErglcHPLv8r60NM4q9EoUiRnpXhDomUtpTZPdEYMX7ogQxL1\",\"billKey\": \"2dae2L3rULTxplQG7IwNGM3K5Rr02wXJySsfvEHiyjQ=\",\"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\"buyerEmail\": \"\",\"merchantDt\": \"테스트용3\"}]}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://devpg.bluewalnut.co.kr/kiarent/pay/request/billkeyReq",
+					"protocol": "https",
+					"host": [
+						"devpg",
+						"bluewalnut",
+						"co",
+						"kr"
+					],
+					"path": [
+						"kiarent",
+						"pay",
+						"request",
+						"billkeyReq"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kiaRentBillpay_data15",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqHeaderInfo\": {\r\n        \"interfaceID\": \"IF-KIA-006\",\r\n        \"interfaceType\": \"100\"\r\n    },\r\n    \"reqStoreInfo\": {\r\n        \"requestDate\": \"20241231092655\",\r\n        \"mid\": \"kiarent01m\",\r\n        \"encryptData\": \"MDE2NTFmMWU0Y2FjYmUwYzI0MTE0Zjk2MWRkOGIzZTQxOTNkY2M2NzU1MWY3NzNkZWY4ZTQzNDMxZTlhMGM5Ng==\",\r\n        \"restType\": \"billkeyReq\"\r\n    },\r\n    \"reqPaymentInfo\": {\r\n        \"payCnt\": 15,\r\n        \"payList\": [\r\n            {\r\n                \"amt\": \"611000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트1\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_80\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"\",\r\n                \"billKey\": \"halkXAkjEcDLDbZDCBjlSeT3kLs3YoADOC5rO49ZLFs=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용1\"\r\n            },\r\n            {\r\n                \"amt\": \"563000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트2\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_81\",\r\n                \"rotationNo\": \"03\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"cZv19LGpc9iNAGRzb2mqAw==\",\r\n                \"billKey\": \"rUnlfKexL22lpgmcsNTjWbR3SDeaO8xnHtyMVaSkf3Q=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용2\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트3\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_82\",\r\n                \"rotationNo\": \"05\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"2qjhuMuGHfaxOThdErglcHPLv8r60NM4q9EoUiRnpXhDomUtpTZPdEYMX7ogQxL1\",\r\n                \"billKey\": \"2dae2L3rULTxplQG7IwNGM3K5Rr02wXJySsfvEHiyjQ=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용3\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트4\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_83\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"Z49bLtP5hVbr7n+PClNA0Q==\",\r\n                \"billKey\": \"qE2OvERz4S4aZDzDVeJa9145RBmvP3H1sNDvIT4YS+Q=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용4\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트5\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_84\",\r\n                \"rotationNo\": \"03\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"Z49bLtP5hVbr7n+PClNA0Q==\",\r\n                \"billKey\": \"QrbRcu/9vg1SB8TZoseGxrxkZjpUol/ifuq4GcYgDxs=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용5\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트6\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_85\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"X3Sbl0ObVYvT9vQczX0b8UZVAAMIUMQr7B5KKQ/RXSM=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용3\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트7\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_86\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"DFljQl7xcNA1arkf/TnfsLmLuObM+ofwgO+k48CahM0=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용3\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트8\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_87\",\r\n                \"rotationNo\": \"05\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"2dae2L3rULTxplQG7IwNGM3K5Rr02wXJySsfvEHiyjQ=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용8\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트9\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_88\",\r\n                \"rotationNo\": \"07\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"moxUWRU53Y6bV8Zgm8N3DM3iqkBMnb+CpOIyBElKLrQ=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용9\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트10\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_89\",\r\n                \"rotationNo\": \"02\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"9YCHwMEfODL4/93aYKgewkx8ZNAABLK6HigJCIGPt2g=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용10\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트11\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_90\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"gEmUHTfHc9KCOUfjCrOVitHZdDujlzxFJ2yS+OXWpDI=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용11\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트12\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_91\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"iiwdXTWRHe9NhdPunG7/bmzFETzn101nion5dT+jHLY=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용12\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트13\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_92\",\r\n                \"rotationNo\": \"04\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"6M97MCCSk2gBqjLFd3lOaBzaF/TGezk7Tn4enWcM9/4=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용13\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트14\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_93\",\r\n                \"rotationNo\": \"02\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"XBdEoWX2QeSblwAXeftIFrSlnNzSAzvlOuWzom1Z0lM=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용14\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트15\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_94\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"HfO8ZQ/U/vgdNxh5I/6AXs6+FDKbbtNqp/c7WJP3ZAE=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용15\"\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://devpg.bluewalnut.co.kr/kiarent/pay/request/billkeyReq",
+					"protocol": "https",
+					"host": [
+						"devpg",
+						"bluewalnut",
+						"co",
+						"kr"
+					],
+					"path": [
+						"kiarent",
+						"pay",
+						"request",
+						"billkeyReq"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kiaRentBillpay_data1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqHeaderInfo\": {\r\n        \"interfaceID\": \"IF-KIA-006\",\r\n        \"interfaceType\": \"100\"\r\n    },\r\n    \"reqStoreInfo\": {\r\n        \"requestDate\": \"20241231092655\",\r\n        \"mid\": \"kiarent01m\",\r\n        \"encryptData\": \"MDE2NTFmMWU0Y2FjYmUwYzI0MTE0Zjk2MWRkOGIzZTQxOTNkY2M2NzU1MWY3NzNkZWY4ZTQzNDMxZTlhMGM5Ng==\",\r\n        \"restType\": \"billkeyReq\"\r\n    },\r\n    \"reqPaymentInfo\": {\r\n        \"payCnt\": 1,\r\n        \"payList\": [\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트_단건\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412311759_107\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"3UYO5pH9ldzZPncSKIKKpA==\",\r\n                \"billKey\": \"HfO8ZQ/U/vgdNxh5I/6AXs6+FDKbbtNqp/c7WJP3ZAE=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"DLIprkfsf+6iIqnG59/w98FpDG8PoooYJtgK7Qpvwyk=\",\r\n                \"merchantDt\": \"테스트용_단건\"\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://devpg.bluewalnut.co.kr/kiarent/pay/request/billkeyReq",
+					"protocol": "https",
+					"host": [
+						"devpg",
+						"bluewalnut",
+						"co",
+						"kr"
+					],
+					"path": [
+						"kiarent",
+						"pay",
+						"request",
+						"billkeyReq"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kiaRentBillpay_data5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reqHeaderInfo\": {\r\n        \"interfaceID\": \"IF-KIA-006\",\r\n        \"interfaceType\": \"100\"\r\n    },\r\n    \"reqStoreInfo\": {\r\n        \"requestDate\": \"20241231092655\",\r\n        \"mid\": \"kiarent01m\",\r\n        \"encryptData\": \"MDE2NTFmMWU0Y2FjYmUwYzI0MTE0Zjk2MWRkOGIzZTQxOTNkY2M2NzU1MWY3NzNkZWY4ZTQzNDMxZTlhMGM5Ng==\",\r\n        \"restType\": \"billkeyReq\"\r\n    },\r\n    \"reqPaymentInfo\": {\r\n        \"payCnt\": 5,\r\n        \"payList\": [\r\n            {\r\n                \"amt\": \"611000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트1\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_105\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"cZv19LGpc9iNAGRzb2mqAw==\",\r\n                \"billKey\": \"halkXAkjEcDLDbZDCBjlSeT3kLs3YoADOC5rO49ZLFs=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"\",\r\n                \"merchantDt\": \"테스트용1\"\r\n            },\r\n            {\r\n                \"amt\": \"563000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트2\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_106\",\r\n                \"rotationNo\": \"03\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"cZv19LGpc9iNAGRzb2mqAw==\",\r\n                \"billKey\": \"rUnlfKexL22lpgmcsNTjWbR3SDeaO8xnHtyMVaSkf3Q=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"\",\r\n                \"merchantDt\": \"테스트용2\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트3\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_107\",\r\n                \"rotationNo\": \"05\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"2qjhuMuGHfaxOThdErglcHPLv8r60NM4q9EoUiRnpXhDomUtpTZPdEYMX7ogQxL1\",\r\n                \"billKey\": \"2dae2L3rULTxplQG7IwNGM3K5Rr02wXJySsfvEHiyjQ=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"\",\r\n                \"merchantDt\": \"테스트용3\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트4\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_108\",\r\n                \"rotationNo\": \"01\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"Z49bLtP5hVbr7n+PClNA0Q==\",\r\n                \"billKey\": \"qE2OvERz4S4aZDzDVeJa9145RBmvP3H1sNDvIT4YS+Q=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"\",\r\n                \"merchantDt\": \"테스트용4\"\r\n            },\r\n            {\r\n                \"amt\": \"545000\",\r\n                \"mid\": \"kiarent01m\",\r\n                \"goodsName\": \"기아렌트카빌키테스트5\",\r\n                \"quota\": \"00\",\r\n                \"pointCl\": \"0\",\r\n                \"cardInterest\": \"0\",\r\n                \"moid\": \"kiarent01m_202412310926_109\",\r\n                \"rotationNo\": \"03\",\r\n                \"orderNo\": \"01\",\r\n                \"mallUserID\": \"Z49bLtP5hVbr7n+PClNA0Q==\",\r\n                \"billKey\": \"QrbRcu/9vg1SB8TZoseGxrxkZjpUol/ifuq4GcYgDxs=\",\r\n                \"buyerName\": \"YYQeiLb68MQrZ/PbeEWxiw==\",\r\n                \"buyerEmail\": \"\",\r\n                \"merchantDt\": \"테스트용5\"\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://devpg.bluewalnut.co.kr/kiarent/pay/request/billkeyReq",
+					"protocol": "https",
+					"host": [
+						"devpg",
+						"bluewalnut",
+						"co",
+						"kr"
+					],
+					"path": [
+						"kiarent",
+						"pay",
+						"request",
+						"billkeyReq"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
