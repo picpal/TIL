@@ -11,17 +11,14 @@
             "id": "d9d1031161a038b7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "3. Resource/DesignPattern/WeatherDisplay.canvas",
-                "viewState": {
-                  "x": 510,
-                  "y": 120,
-                  "zoom": -1.4823740416032425
-                }
+                "file": "3. Resource/DesignPattern/Book.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WeatherDisplay"
+              "icon": "lucide-file",
+              "title": "Book"
             }
           }
         ]
@@ -196,6 +193,7 @@
   },
   "active": "d9d1031161a038b7",
   "lastOpenFiles": [
+    "3. Resource/DesignPattern/WeatherDisplay.canvas",
     "3. Resource/DevOps/CI,CD with Jenkins.md",
     "3. Resource/Frontend/React/Rendering.md",
     "3. Resource/Frontend/TailwindCSS/install.md",
@@ -211,7 +209,6 @@
     "3. Resource/Algorithm/Multiple Pointer.md",
     "2. Area/blank.md",
     "1. Project/blank.md",
-    "3. Resource/DesignPattern/WeatherDisplay.canvas",
     "3. Resource/DesignPattern/SimUDuck.canvas",
     "3. Resource/DesignPattern/Book.md",
     "attachment/New Collection.postman_collection.json",
@@ -241,7 +238,6 @@
     "Untitled 2.canvas",
     "Untitled 3.canvas",
     "Untitled 1.canvas",
-    "conflict-files-obsidian-git.md",
     "Untitled.canvas",
     "attachment/Pasted image 20230802225924.png",
     "attachment/Pasted image 20230802225658.png",
