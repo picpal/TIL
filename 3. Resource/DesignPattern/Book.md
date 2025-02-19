@@ -155,6 +155,12 @@ Duck duck;
 if(picnic){
 	duck = new MallardDuck();
 }else if(hunting){
-
+	duck = new DecoyDuck();
+}else if(inBathTub){
+	duck = new RubberDuck();
 }
 ```
+구상 클래스의 인스턴스가 여러개 있으며, 인스턴스의 형식은 실행시에 주어진 조건에 따라 결정
+변경 또는 확장이 필요한 경우 코드를 일일이 확인하고 수정이 필요함
+[다형성 고려 No , 변경에 닫힘]
+
