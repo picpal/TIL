@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"e49a7ee97db2ad64","x":-900,"y":-390,"width":250,"height":160,"type":"text","text":"# PizzaStore\n\n---\n\norderPizza()"},
+		{"id":"2e16ac9e9e543b17","type":"text","text":"# SimplePizzaFactory\n\n---\n\ncreatePizza()","x":-480,"y":-390,"width":380,"height":160},
+		{"id":"07b8ceb681a1f225","type":"text","text":"# Pizza\n\n--- \n\nprepare()\nbake()\ncut()\nbox()","x":-40,"y":-140,"width":260,"height":240},
+		{"id":"9eb08272dd55ad96","type":"text","text":"# CheesePizza\n\n---","x":-560,"y":340,"width":320,"height":120},
+		{"id":"63386ba4382daea8","type":"text","text":"# ClamPizza\n\n---","x":180,"y":340,"width":320,"height":120},
+		{"id":"1ff76afb6cc9bbd8","type":"text","text":"# PepperoniPIzza\n\n---","x":560,"y":340,"width":320,"height":120},
+		{"id":"b4d4997b849d6eab","type":"text","text":"# VeggiePizza\n\n---","x":-200,"y":340,"width":320,"height":120}
+	],
+	"edges":[
+		{"id":"c17e5c4d00efffb5","fromNode":"9eb08272dd55ad96","fromSide":"top","toNode":"07b8ceb681a1f225","toSide":"bottom"},
+		{"id":"167aa31cd0711d06","fromNode":"b4d4997b849d6eab","fromSide":"top","toNode":"07b8ceb681a1f225","toSide":"bottom"},
+		{"id":"b26ea7a17a234f4e","fromNode":"63386ba4382daea8","fromSide":"top","toNode":"07b8ceb681a1f225","toSide":"bottom"},
+		{"id":"d3973b6c6fa5bb0c","fromNode":"1ff76afb6cc9bbd8","fromSide":"top","toNode":"07b8ceb681a1f225","toSide":"bottom"},
+		{"id":"c15f717e22fe5b5c","fromNode":"2e16ac9e9e543b17","fromSide":"right","toNode":"07b8ceb681a1f225","toSide":"top","label":"참조"},
+		{"id":"1400b83aa43fd20f","fromNode":"e49a7ee97db2ad64","fromSide":"right","toNode":"2e16ac9e9e543b17","toSide":"left","label":"참조"}
+	]
+}
