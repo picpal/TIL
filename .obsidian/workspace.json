@@ -11,17 +11,14 @@
             "id": "d9d1031161a038b7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "3. Resource/DesignPattern/Pizza.canvas",
-                "viewState": {
-                  "x": -296.1041373785208,
-                  "y": 202.17387223543048,
-                  "zoom": -0.6666666666666667
-                }
+                "file": "3. Resource/DesignPattern/📚 Book.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Pizza"
+              "icon": "lucide-file",
+              "title": "📚 Book"
             }
           }
         ]
@@ -197,8 +194,8 @@
   },
   "active": "d9d1031161a038b7",
   "lastOpenFiles": [
-    "3. Resource/DesignPattern/Book.md",
     "3. Resource/DesignPattern/Pizza.canvas",
+    "3. Resource/DesignPattern/📚 Book.md",
     "3. Resource/DesignPattern/WeatherDisplay.canvas",
     "3. Resource/DevOps/CI,CD with Jenkins.md",
     "3. Resource/Frontend/React/Rendering.md",
