@@ -1,4 +1,4 @@
-package com.picpal.sandbox.designPattern.simUDuck;
+package com.picpal.sandbox.designPattern.DesignConvention;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;

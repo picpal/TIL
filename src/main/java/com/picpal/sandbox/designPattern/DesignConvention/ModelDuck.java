@@ -1,4 +1,4 @@
-package com.picpal.sandbox.designPattern.simUDuck;
+package com.picpal.sandbox.designPattern.DesignConvention;
 
 public class ModelDuck extends Duck{
     public ModelDuck() {

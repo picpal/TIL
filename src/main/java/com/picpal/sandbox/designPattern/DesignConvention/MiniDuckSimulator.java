@@ -1,4 +1,4 @@
-package com.picpal.sandbox.designPattern.simUDuck;
+package com.picpal.sandbox.designPattern.DesignConvention;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

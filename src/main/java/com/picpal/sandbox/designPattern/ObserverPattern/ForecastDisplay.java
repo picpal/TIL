@@ -1,4 +1,4 @@
-package com.picpal.sandbox.designPattern.weatherApp;
+package com.picpal.sandbox.designPattern.ObserverPattern;
 
 public class ForecastDisplay implements Observer, DisplayElement{
     private float currentPressure = 29.92f;

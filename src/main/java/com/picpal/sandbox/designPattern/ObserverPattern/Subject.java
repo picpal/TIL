@@ -1,4 +1,4 @@
-package com.picpal.sandbox.designPattern.weatherApp;
+package com.picpal.sandbox.designPattern.ObserverPattern;
 
 public interface Subject {
     public void registerObserver(Observer o);

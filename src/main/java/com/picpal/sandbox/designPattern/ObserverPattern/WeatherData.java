@@ -1,4 +1,4 @@
-package com.picpal.sandbox.designPattern.weatherApp;
+package com.picpal.sandbox.designPattern.ObserverPattern;
 
 import java.util.ArrayList;
 import java.util.List;
