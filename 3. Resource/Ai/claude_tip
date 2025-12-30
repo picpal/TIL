@@ -1,0 +1,44 @@
+# Context Optimize : Anthropic 공식문서 & 연구자료 참고
+- plan mode : step by step을 강제한 모델
+   - 작업을 적절한 단위로 나누고 markdown으로 소통
+- mcp-cli, skills
+   - 불필요한 정보를 걷어낸다
+     - mcp를 그냥 호출하면, mcp호출하기위한 데이터와 호출하고난 데이터 둘다 context에 남게 된다.
+     - ex) 학생중 1등을 찾기 위해서 mcp를 호출한다고 봤을 때 전체 학생 불러오고, 그중 1등을 탐색하고 반환. 이 때 불러와진 전체학생이 context에 남음
+- mcp__ide__getDiagnostics
+   - IDE가 빠르게 자체 검증 시키는것
+   - 코드를 검증하기 위한 도구를 전체 코드를 다시 탐색하는게 아니라 IDE에서 한번 검출된 정보를 통해서 수정하게 한다.
+   - 이를 통해 전체 소스코드가 context에 남게 되지 않는다
+
+
+## Claude Code Tip
+- --dangerously-skip-permissions : claude가 수정을 묻지 않고 실행 
+- plan mode를 써서 sub agent를 통해서 실행 시켜서 단계를 나누게 되면,
+  main agent에 이 플랜을 만들기 위해 확인하는 작업에서 사용된 context만큼을 절약 가능
+- 이렇게 세분화된 플랜으로 main agent를 통해서 실행을 하게 되었을 때 필요한 부분만 확인하고 작업을하기 때문에 context optimize 가능
+- 각 역할에 맞게 context를 소모하게 하자 ( sub agent 적극 활용 )
+- 실행 방식은 어떤식으로 진행되었는가?
+  - https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md
+  - Research / Planing / Implementation 단계로 나눠서 각 단계가 끝나면 human review 진행
+- Research / Planing / Implementation 단계를 나누게 되면 각 섹션 별로 context가 분리되고, 각 섹션안에서도 main agent, sub agent각각 context가 분리되어 효율적 사용 가능
+- auto compact를 하는 상황을 만들지 말자. auto compact가 뜬다면 context관리를 잘못한것이다. (/config로 끌 수 있음)
+- 규칙적인 작업을 시킬때는 스크립트를 만들어서 실행하도록 만드는게 context를 절약할 수 있다. 
+  - 만약에 특정 체크리스트를 만들어달라는 요청을 하게 되면 파일내에 모든 체크리스트를 생성하면서 context에 보관되기 때문에 full이 빨리찬다.
+  - 그리고 agent가 실행중에 자신이 직접하는 경우 누락하는 경우가 있는데, 스크립트를 통해서 실행하게 하면 스크립트가 동작중에 오류가 생기면 자기가 재실행하거나 오류를 반환해서 체크가 가능하다.
+- main agent는 관리자 역할로, sub agent를 작업자 역할로 분리해서 사용하자
+  - 병렬실행도 가능하다. 
+  - 단, 최대 20개 미만으로 병렬 처리 시키자. 효율 측면과 중간중간 작업 체크를 하기 위함.
+
+
+
+---
+
+## Web Site Design 참고 사이트
+- https://supahero.io
+- https://unsection.com
+- https://monet.design : 개발자가 생성한 웹 사이트를 컴포넌트화 해놓은 사이트
+   - codebase : https://github.com/monet-design/monet-registry
+
+
+## html 불필요 정보 제거 사이트
+- https://htmlslim.com
